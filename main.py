@@ -4,7 +4,14 @@ from strategy import get_grid
 from broker import login, get_price, buy_limit, sell_limit
 from risk import should_pause
 
-MARKETS = ["ETH", "BTC", "DOGE"]
+# Markets and their backtested optimal grid parameters
+# sweep: price range on each side, steps: number of grid levels
+MARKETS = {
+    "ETH": {"sweep": 0.40, "steps": 2},
+    "BNB": {"sweep": 0.30, "steps": 2},
+    "SOL": {"sweep": 0.30, "steps": 2},
+}
+
 INTERVAL = 3600
 ORDER_SIZE = 0.01
 
@@ -19,7 +26,8 @@ async def run_market(symbol, state):
 
     pause = should_pause(price_cache[symbol])
 
-    buys, sells = get_grid(price)
+    cfg = MARKETS[symbol]
+    buys, sells = get_grid(price, sweep=cfg["sweep"], steps=cfg["steps"])
 
     tasks = []
 
@@ -36,7 +44,7 @@ async def run_cycle():
     state = load_state()
 
     await asyncio.gather(*[
-        run_market(m, state) for m in MARKETS
+        run_market(m, state) for m in MARKETS.keys()
     ])
 
     state["cycles"] += 1
