@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -115,7 +119,7 @@ def plot_trades(prices, buy_points, sell_points):
 
 
 if __name__ == "__main__":
-    filename = "C:\\Users\\Michael\\OneDrive\\Desktop\\Projects\\TradingBot\\trading_bot\\eth_usd_2y.csv"
+    filename = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "eth_usd_2y.csv")
     df = pd.read_csv(filename)
 
     if "close" not in df.columns:

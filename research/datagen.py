@@ -1,6 +1,10 @@
+import os
 import yfinance as yf
 import pandas as pd
 import time
+
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+os.makedirs(DATA_DIR, exist_ok=True)
 
 # All tradable cryptos on Robinhood (US) as of April 2026
 # Source: https://robinhood.com/us/en/support/articles/coin-availability/
@@ -86,7 +90,7 @@ def download(symbol: str, name: str, period: str = "2y") -> bool:
         df = df.reset_index()[["Date", "Close"]]
         df.columns = ["date", "close"]
 
-        filename = f"{symbol.replace('-', '_').lower()}_{period}.csv"
+        filename = os.path.join(DATA_DIR, f"{symbol.replace('-', '_').lower()}_{period}.csv")
         df.to_csv(filename, index=False)
         print(f"OK  -> {filename}  ({len(df)} rows)")
         return True

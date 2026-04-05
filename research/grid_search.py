@@ -6,7 +6,10 @@ then reports the delta so you can see exactly what the improvements bought.
 Score = return_pct / num_trades  (maximise return, minimise churn)
 """
 
+import sys
 import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import glob
 import pandas as pd
 from backtest import backtest
@@ -34,8 +37,10 @@ BASELINE_KWARGS = dict(
     circuit_breaker = None,
 )
 
-base_dir  = os.path.dirname(os.path.abspath(__file__))
-csv_files = sorted(glob.glob(os.path.join(base_dir, "*_usd_2y.csv")))
+base_dir     = os.path.dirname(os.path.abspath(__file__))
+data_dir     = os.path.join(base_dir, "data")
+results_dir  = os.path.join(base_dir, "results")
+csv_files    = sorted(glob.glob(os.path.join(data_dir, "*_usd_2y.csv")))
 print(f"Found {len(csv_files)} CSVs\n")
 
 
@@ -131,6 +136,6 @@ compare = compare.sort_values("delta", ascending=False)
 print(compare.head(10).to_string(index=False))
 
 # Save both result sets
-base_df.to_csv(os.path.join(base_dir, "grid_search_baseline.csv"), index=False)
-enh_df.to_csv(os.path.join(base_dir, "grid_search_enhanced.csv"), index=False)
-print(f"\nResults saved to grid_search_baseline.csv and grid_search_enhanced.csv")
+base_df.to_csv(os.path.join(results_dir, "grid_search_baseline.csv"), index=False)
+enh_df.to_csv(os.path.join(results_dir, "grid_search_enhanced.csv"), index=False)
+print(f"\nResults saved to research/results/")
