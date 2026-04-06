@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python grid_search.py)",
+      "Bash(python -c \"from backtest import backtest; import pandas as pd; df = pd.read_csv\\('data/eth_usd_2y.csv'\\); r = backtest\\(df['close'].tolist\\(\\)\\); print\\(f'ETH final value: {r[\\\\\"final_value\\\\\"]:.2f}'\\)\")",
+      "Bash(python -c ':*)",
+      "Bash(powershell -Command \"[System.Environment]::GetEnvironmentVariable\\('Path', 'User'\\)\")",
+      "Bash(powershell -Command '$current = [System.Environment]::GetEnvironmentVariable\\(\"Path\", \"User\"\\); $newPath = $current + \";C:\\\\Users\\\\Michael\\\\.local\\\\bin\"; [System.Environment]::SetEnvironmentVariable\\(\"Path\", $newPath, \"User\"\\); Write-Host \"Done\"')",
+      "Bash(python -u grid_search.py)"
+    ]
+  }
+}

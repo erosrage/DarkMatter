@@ -99,40 +99,59 @@ def backtest(prices, sweep=0.2, steps=8, order_size=20, reset_interval=None,
     }
 
 
-def plot_trades(prices, buy_points, sell_points):
+def plot_trades(prices, buy_points, sell_points, dates=None):
     sns.set(style="whitegrid")
-    plt.figure(figsize=(14, 6))
-    plt.plot(prices, label="Price", color="blue")
+    fig, ax = plt.subplots(figsize=(14, 6))
+
+    x = dates if dates is not None else list(range(len(prices)))
+    ax.plot(x, prices, label="Price", color="blue")
 
     if buy_points:
-        x_buys, y_buys = zip(*buy_points)
-        plt.scatter(x_buys, y_buys, color="green", marker="^", s=100, label="Buys")
-    if sell_points:
-        x_sells, y_sells = zip(*sell_points)
-        plt.scatter(x_sells, y_sells, color="red", marker="v", s=100, label="Sells")
+        x_buys  = [dates[i] if dates is not None else i for i, _ in buy_points]
+        y_buys  = [p for _, p in buy_points]
+        ax.scatter(x_buys, y_buys, color="green", marker="^", s=100, label=f"Buys ({len(buy_points)})")
 
-    plt.title("Backtest Trades on Price Chart")
-    plt.xlabel("Time")
-    plt.ylabel("Price")
-    plt.legend()
+    if sell_points:
+        x_sells = [dates[i] if dates is not None else i for i, _ in sell_points]
+        y_sells = [p for _, p in sell_points]
+        ax.scatter(x_sells, y_sells, color="red", marker="v", s=100, label=f"Sells ({len(sell_points)})")
+
+    if dates is not None:
+        fig.autofmt_xdate()
+
+    ax.set_title("Backtest Trades on Price Chart")
+    ax.set_xlabel("Date" if dates is not None else "Candle")
+    ax.set_ylabel("Price")
+    ax.legend()
+    plt.tight_layout()
     plt.show()
 
 
 if __name__ == "__main__":
-    filename = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "eth_usd_2y.csv")
-    df = pd.read_csv(filename)
+    filename = "C:\\Users\\Michael\\OneDrive\\Desktop\\Projects\\TradingBot\\trading_bot\\research\\data\\5y\\data\\sol_usd_5y.csv"
+
+    df = pd.read_csv(filename, parse_dates=["date"])
 
     if "close" not in df.columns:
         raise ValueError("CSV must contain a 'close' column")
 
     prices = df["close"].tolist()
+    dates  = df["date"].tolist()
     result = backtest(prices)
 
-    print("\n=== Backtest Results ===")
-    print(f"Final Value: {result['final_value']:.2f}")
-    print(f"Profit:      {result['profit']:.2f}")
-    print(f"Cash:        {result['cash']:.2f}")
-    print(f"Holdings:    {result['holdings']:.4f}")
-    print(f"Halted:      {result['halted']}")
+    num_buys  = len(result["buy_points"])
+    num_sells = len(result["sell_points"])
+    return_pct = (result["final_value"] - 100_000) / 100_000 * 100
 
-    plot_trades(prices, result["buy_points"], result["sell_points"])
+    print("\n=== Backtest Results ===")
+    print(f"Starting Capital: $100,000.00")
+    print(f"Final Value:      ${result['final_value']:,.2f}  ({return_pct:+.2f}%)")
+    print(f"Realised Profit:  ${result['profit']:,.2f}")
+    print(f"Cash Remaining:   ${result['cash']:,.2f}")
+    print(f"Holdings:         {result['holdings']:.4f} units")
+    print(f"Buys Executed:    {num_buys}")
+    print(f"Sells Executed:   {num_sells}")
+    print(f"Total Trades:     {num_buys + num_sells}")
+    print(f"Halted:           {result['halted']}")
+
+    plot_trades(prices, result["buy_points"], result["sell_points"], dates=dates)
