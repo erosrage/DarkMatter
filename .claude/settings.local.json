@@ -6,7 +6,10 @@
       "Bash(python -c ':*)",
       "Bash(powershell -Command \"[System.Environment]::GetEnvironmentVariable\\('Path', 'User'\\)\")",
       "Bash(powershell -Command '$current = [System.Environment]::GetEnvironmentVariable\\(\"Path\", \"User\"\\); $newPath = $current + \";C:\\\\Users\\\\Michael\\\\.local\\\\bin\"; [System.Environment]::SetEnvironmentVariable\\(\"Path\", $newPath, \"User\"\\); Write-Host \"Done\"')",
-      "Bash(python -u grid_search.py)"
+      "Bash(python -u grid_search.py)",
+      "Bash(python research/backtest.py)",
+      "Bash(python research/param_search.py)",
+      "Bash(grep -v \"^$\")"
     ]
   }
 }

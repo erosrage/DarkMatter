@@ -17,7 +17,7 @@ def compute_atr(price_series, period=14):
     return sum(ranges) / period
 
 
-def dynamic_sweep(price, price_series, atr_multiplier=8.0, min_sweep=0.05, max_sweep=0.50, default=0.20):
+def dynamic_sweep(price, price_series, atr_multiplier=2.0, min_sweep=0.02, max_sweep=0.15, default=0.20):
     """Scale grid width by ATR. Falls back to `default` if not enough history."""
     atr = compute_atr(price_series)
     if atr is None or price <= 0:
