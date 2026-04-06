@@ -2,16 +2,18 @@ import asyncio
 from state import load_state, save_state
 from strategy import get_sd_levels, compute_atr
 from broker import login, get_price, get_portfolio_value, cancel_order, buy_limit, sell_limit
-from risk import trend_is_up, portfolio_ok
+from risk import portfolio_ok
 
 # Per-market config:
 #   window        — rolling candles for mean/σ (168h = 1 week)
 #   steps         — number of buy/sell levels on each side
 #   std_multiplier— σ spacing between levels
-#   ma_period     — trend filter lookback in candles (None = off)
 MARKETS = {
-    "BNB":  {"window": 336, "steps": 2, "std_multiplier": 0.5, "ma_period": None},  # 2y hourly: +26.4%
-    "AAVE": {"window": 168, "steps": 6, "std_multiplier": 2.0, "ma_period": None},  # 2y hourly: +18.4%
+    "BNB":  {"window": 336, "steps": 2, "std_multiplier": 0.5},  # 2y hourly baseline: +60.4%
+    "BCH":  {"window": 720, "steps": 4, "std_multiplier": 1.5},  # 2y hourly baseline: +47.4%
+    "PAXG": {"window": 336, "steps": 2, "std_multiplier": 1.0},  # 2y hourly baseline: +32.3%
+    "LTC":  {"window": 336, "steps": 6, "std_multiplier": 0.5},  # 2y hourly baseline: +27.8%
+    "AAVE": {"window": 168, "steps": 6, "std_multiplier": 2.0},  # 2y hourly baseline: +24.2%
 }
 
 INTERVAL        = 3600   # seconds between cycles
@@ -62,10 +64,6 @@ async def run_market(symbol, state, is_reset_cycle, portfolio_val):
         window         = cfg["window"],
     )
 
-    # Trend filter (per-market, None = off)
-    ma_period   = cfg.get("ma_period")
-    buy_allowed = trend_is_up(cache, ma_period) if ma_period else True
-
     new_order_ids = []
 
     async def place_buy(idx, level):
@@ -80,9 +78,7 @@ async def run_market(symbol, state, is_reset_cycle, portfolio_val):
         if resp and isinstance(resp, dict) and "id" in resp:
             new_order_ids.append(resp["id"])
 
-    tasks = []
-    if buy_allowed:
-        tasks += [place_buy(idx, b) for idx, b in enumerate(buys)]
+    tasks = [place_buy(idx, b) for idx, b in enumerate(buys)]
     tasks += [place_sell(s) for s in sells]
 
     await asyncio.gather(*tasks)
