@@ -9,7 +9,8 @@
       "Bash(python -u grid_search.py)",
       "Bash(python research/backtest.py)",
       "Bash(python research/param_search.py)",
-      "Bash(grep -v \"^$\")"
+      "Bash(grep -v \"^$\")",
+      "Bash(tasklist)"
     ]
   }
 }

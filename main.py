@@ -8,13 +8,13 @@ from risk import trend_is_up, portfolio_ok
 # sweep: fallback grid width on each side, steps: number of grid levels
 MARKETS = {
     #            sweep  steps  ma_period  counter_mult  order_size_pct
-    "ETH": {"sweep": 0.20, "steps": 8,  "ma_period": 336, "counter_mult": 3.0, "order_size_pct": 0.15},
-    "BNB": {"sweep": 0.08, "steps": 12, "ma_period": None, "counter_mult": 3.0, "order_size_pct": 0.15},
+    "ETH": {"sweep": 0.10, "steps": 4,  "ma_period": 336, "counter_mult": 3.0, "order_size_pct": 0.15},
+    "BNB": {"sweep": 0.06, "steps": 12, "ma_period": None, "counter_mult": 3.0, "order_size_pct": 0.15},
     "SOL": {"sweep": 0.20, "steps": 4,  "ma_period": None, "counter_mult": 3.0, "order_size_pct": 0.15},
 }
 
 INTERVAL = 3600  # seconds between cycles
-RESET_INTERVAL  = None   # never auto-reset — let orders sit and fill naturally
+RESET_INTERVAL  = 24     # reset grids every 24 cycles (~daily at 1h intervals)
 PRICE_CACHE_LEN = 750    # candles kept per market (~1 month at 1h; enough for any MA period)
 
 price_cache = {m: [] for m in MARKETS}

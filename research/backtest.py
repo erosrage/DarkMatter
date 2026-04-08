@@ -10,9 +10,9 @@ from strategy import get_grid
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data", "2y", "hourly")
 
 MARKET_CONFIGS = {
-    "ETH": {"sweep": 0.20, "steps": 8,  "ma_period": 336, "reset_interval": None, "counter_mult": 3.0, "order_size_pct": 0.15, "file": "eth_usd_1h.csv"},
-    "BNB": {"sweep": 0.08, "steps": 12, "ma_period": None, "reset_interval": None, "counter_mult": 3.0, "order_size_pct": 0.15, "file": "bnb_usd_1h.csv"},
-    "SOL": {"sweep": 0.20, "steps": 4,  "ma_period": None, "reset_interval": None, "counter_mult": 3.0, "order_size_pct": 0.15, "file": "sol_usd_1h.csv"},
+    "ETH": {"sweep": 0.10, "steps": 4,  "ma_period": 336, "reset_interval": 24, "counter_mult": 3.0, "order_size_pct": 0.15, "file": "eth_usd_1h.csv"},
+    "BNB": {"sweep": 0.06, "steps": 12, "ma_period": None, "reset_interval": 24, "counter_mult": 3.0, "order_size_pct": 0.15, "file": "bnb_usd_1h.csv"},
+    "SOL": {"sweep": 0.20, "steps": 4,  "ma_period": None, "reset_interval": 24, "counter_mult": 3.0, "order_size_pct": 0.15, "file": "sol_usd_1h.csv"},
 }
 
 
@@ -29,7 +29,7 @@ def backtest(prices, sweep=0.08, steps=8, order_size_pct=0.05, reset_interval=6,
 
       order_size_pct: fraction of current cash to deploy per grid level (e.g. 0.05 = 5%)
     """
-    INITIAL_CASH = 100_000
+    INITIAL_CASH = 30_000
     cash = INITIAL_CASH
     holdings = 0.0
     profit = 0.0
@@ -189,87 +189,204 @@ def plot_trades(prices, buy_points, sell_points, dates=None, title="Backtest Tra
     plt.show()
 
 
-if __name__ == "__main__":
-    INITIAL_CASH = 100_000
-    results = {}
+def backtest_multi(market_configs, data_dir, initial_cash=30_000,
+                   circuit_breaker=0.20, reactive=True):
+    """
+    Backtest all markets simultaneously against a single shared cash pool,
+    mirroring production where all markets draw from the same account balance.
 
-    print("\n=== Backtest Results (2-Year Hourly) ===\n")
-    print(f"{'Symbol':<8} {'Final Value':>14} {'Return':>9} {'Buys':>7} {'Sells':>7} {'Halted':>8}")
-    print("-" * 58)
-
-    for symbol, cfg in MARKET_CONFIGS.items():
-        filepath = os.path.join(DATA_DIR, cfg["file"])
+    Order sizing uses portfolio_val * order_size_pct at each timestep, so the
+    effective per-order USD shrinks as cash is consumed across markets.
+    """
+    # ── Load and align price series on common timestamps ──────────────────────
+    frames = {}
+    for symbol, cfg in market_configs.items():
+        filepath = os.path.join(data_dir, cfg["file"])
         df = pd.read_csv(filepath, parse_dates=["date"])
         if "close" not in df.columns:
             print(f"{symbol}: missing 'close' column, skipping.")
             continue
+        frames[symbol] = df.set_index("date")["close"]
 
-        prices = df["close"].tolist()
-        dates  = df["date"].tolist()
+    combined = pd.DataFrame(frames).dropna()
+    dates = combined.index.tolist()
+    symbols = list(frames.keys())
 
-        result = backtest(
-            prices,
-            sweep=cfg["sweep"],
-            steps=cfg["steps"],
-            ma_period=cfg["ma_period"],
-            reset_interval=cfg["reset_interval"],
-            counter_multiplier=cfg["counter_mult"],
-            order_size_pct=cfg["order_size_pct"],
-        )
+    # ── Shared state ──────────────────────────────────────────────────────────
+    cash = float(initial_cash)
+    holdings      = {m: 0.0 for m in symbols}
+    active_orders = {m: [] for m in symbols}
+    executed_buys  = {m: [] for m in symbols}
+    executed_sells = {m: [] for m in symbols}
+    gross_revenue  = {m: 0.0 for m in symbols}
+    price_history  = {m: [] for m in symbols}
+    halted = False
 
-        return_pct = (result["final_value"] - INITIAL_CASH) / INITIAL_CASH * 100
-        results[symbol] = result
+    def portfolio_val(prices):
+        return cash + sum(holdings[m] * prices[m] for m in symbols)
 
-        print(f"{symbol:<8} ${result['final_value']:>13,.2f} {return_pct:>+8.2f}% "
-              f"{len(result['buy_points']):>7} {len(result['sell_points']):>7} "
-              f"{'YES' if result['halted'] else 'no':>8}")
+    def make_orders(m, price, pval):
+        cfg = market_configs[m]
+        sweep = cfg["sweep"]
+        steps = cfg["steps"]
+        step_pct = sweep / steps
+        order_usd = pval * cfg["order_size_pct"]
+        buys, sells = get_grid(price, sweep, steps)
+        orders = []
+        for b in buys:
+            orders.append({"side": "buy",  "price": b, "qty": order_usd / b, "step_pct": step_pct})
+        for s in sells:
+            orders.append({"side": "sell", "price": s, "qty": order_usd / s, "step_pct": step_pct})
+        return orders
 
+    # Initialise grids at t=0
+    row0 = combined.iloc[0]
+    pval0 = initial_cash  # no holdings yet
+    for m in symbols:
+        active_orders[m] = make_orders(m, row0[m], pval0)
+
+    # ── Main simulation loop ───────────────────────────────────────────────────
+    for i in range(len(dates)):
+        row = combined.iloc[i]
+        prices = {m: float(row[m]) for m in symbols}
+
+        for m in symbols:
+            price_history[m].append(prices[m])
+
+        pval = portfolio_val(prices)
+
+        # Circuit breaker — halt everything
+        if circuit_breaker and pval < initial_cash * (1 - circuit_breaker):
+            halted = True
+            break
+
+        # Trend filter per market
+        trend_up = {}
+        for m in symbols:
+            ma_period = market_configs[m].get("ma_period")
+            if ma_period and i >= ma_period:
+                hist = price_history[m]
+                trend_up[m] = prices[m] > sum(hist[-ma_period:]) / ma_period
+            else:
+                trend_up[m] = True
+
+        # ── Fill orders and reactive re-entry ─────────────────────────────────
+        # Process markets in order; shared cash is deducted immediately so later
+        # markets see the reduced balance — same effect as concurrent Robinhood orders
+        # competing for buying power.
+        for m in symbols:
+            price = prices[m]
+            cfg   = market_configs[m]
+            filled    = []
+            remaining = []
+
+            for order in active_orders[m]:
+                if order["side"] == "buy" and price <= order["price"]:
+                    cost = order["price"] * order["qty"]
+                    if cash >= cost:
+                        cash -= cost
+                        holdings[m] += order["qty"]
+                        executed_buys[m].append((i, price))
+                        filled.append(order)
+                    else:
+                        remaining.append(order)  # insufficient shared cash
+                elif order["side"] == "sell" and price >= order["price"]:
+                    if holdings[m] >= order["qty"]:
+                        proceeds = order["price"] * order["qty"]
+                        cash += proceeds
+                        holdings[m] -= order["qty"]
+                        gross_revenue[m] += proceeds
+                        executed_sells[m].append((i, price))
+                        filled.append(order)
+                    else:
+                        remaining.append(order)
+                else:
+                    remaining.append(order)
+
+            active_orders[m] = remaining
+
+            if reactive:
+                existing = {(o["side"], round(o["price"], 4)) for o in active_orders[m]}
+                cm = cfg.get("counter_mult", 1.0)
+                for order in filled:
+                    sp = order["step_pct"]
+                    if order["side"] == "buy":
+                        cp = order["price"] * (1 + sp * cm)
+                        key = ("sell", round(cp, 4))
+                        if key not in existing:
+                            active_orders[m].append({"side": "sell", "price": cp,
+                                                      "qty": order["qty"], "step_pct": sp})
+                            existing.add(key)
+                    elif trend_up[m]:
+                        cp = order["price"] * (1 - sp * cm)
+                        key = ("buy", round(cp, 4))
+                        if key not in existing:
+                            order_usd = pval * cfg["order_size_pct"]
+                            active_orders[m].append({"side": "buy", "price": cp,
+                                                      "qty": order_usd / cp, "step_pct": sp})
+                            existing.add(key)
+
+    last_prices = {m: float(combined.iloc[-1][m]) for m in symbols}
+    final_value = cash + sum(holdings[m] * last_prices[m] for m in symbols)
+
+    return {
+        "final_value":    final_value,
+        "cash":           cash,
+        "holdings":       holdings,
+        "last_prices":    last_prices,
+        "gross_revenue":  gross_revenue,
+        "executed_buys":  executed_buys,
+        "executed_sells": executed_sells,
+        "halted":         halted,
+        "dates":          dates,
+        "combined":       combined,
+    }
+
+
+if __name__ == "__main__":
+    INITIAL_CASH = 30_000
+
+    result = backtest_multi(MARKET_CONFIGS, DATA_DIR, initial_cash=INITIAL_CASH)
+
+    final_value  = result["final_value"]
+    return_pct   = (final_value - INITIAL_CASH) / INITIAL_CASH * 100
+    last_prices  = result["last_prices"]
+    symbols      = list(result["holdings"].keys())
+
+    print("\n=== Backtest Results — Shared Capital (2-Year Hourly) ===")
+    print(f"  Starting Capital: ${INITIAL_CASH:>10,.2f}")
+    print(f"  Final Value:      ${final_value:>10,.2f}  ({return_pct:+.2f}%)")
+    print(f"  Cash remaining:   ${result['cash']:>10,.2f}")
+    print(f"  Halted:           {'YES' if result['halted'] else 'No'}")
     print()
 
-    # Detailed breakdown per symbol
-    for symbol, cfg in MARKET_CONFIGS.items():
-        if symbol not in results:
-            continue
-        result = results[symbol]
-        filepath = os.path.join(DATA_DIR, cfg["file"])
-        df = pd.read_csv(filepath, parse_dates=["date"])
-        last_price = df["close"].iloc[-1]
-        holdings_val = result["holdings"] * last_price
-
-        return_pct = (result["final_value"] - INITIAL_CASH) / INITIAL_CASH * 100
-        print(f"--- {symbol} ---")
-        print(f"  Final Value:   ${result['final_value']:>12,.2f}  ({return_pct:+.2f}%)")
-        print(f"  Cash:          ${result['cash']:>12,.2f}")
-        print(f"  Holdings val:  ${holdings_val:>12,.2f}  ({result['holdings']:.6f} units @ ${last_price:,.2f})")
-        print(f"  Gross Revenue: ${result['profit']:>12,.2f}")
-        print(f"  Trades:        {len(result['buy_points'])} buys / {len(result['sell_points'])} sells")
-        print(f"  Halted:        {result['halted']}")
-        print()
+    print(f"{'Symbol':<8} {'Holdings Val':>14} {'Units':>14} {'Last Price':>12} {'Buys':>7} {'Sells':>7} {'Gross Rev':>14}")
+    print("-" * 82)
+    for m in symbols:
+        hval = result["holdings"][m] * last_prices[m]
+        buys  = len(result["executed_buys"][m])
+        sells = len(result["executed_sells"][m])
+        print(f"{m:<8} ${hval:>13,.2f} {result['holdings'][m]:>14.6f} ${last_prices[m]:>11,.2f} "
+              f"{buys:>7} {sells:>7} ${result['gross_revenue'][m]:>13,.2f}")
 
     # Plot each symbol
-    for symbol, cfg in MARKET_CONFIGS.items():
-        if symbol not in results:
-            continue
-        filepath = os.path.join(DATA_DIR, cfg["file"])
-        df = pd.read_csv(filepath, parse_dates=["date"])
-        prices = df["close"].tolist()
-        dates  = df["date"].tolist()
-        result = results[symbol]
-        cfg2 = MARKET_CONFIGS[symbol]
-        last_price = df["close"].iloc[-1]
-        holdings_val = result["holdings"] * last_price
-        return_pct = (result["final_value"] - INITIAL_CASH) / INITIAL_CASH * 100
+    for m in symbols:
+        combined = result["combined"]
+        prices = combined[m].tolist()
+        dates  = result["dates"]
+        hval   = result["holdings"][m] * last_prices[m]
+        cfg2   = MARKET_CONFIGS[m]
         metrics = {
-            "final_value":   result["final_value"],
+            "final_value":   final_value,
             "return_pct":    return_pct,
             "cash":          result["cash"],
-            "holdings_val":  holdings_val,
-            "gross_revenue": result["profit"],
-            "buys":          len(result["buy_points"]),
-            "sells":         len(result["sell_points"]),
+            "holdings_val":  hval,
+            "gross_revenue": result["gross_revenue"][m],
+            "buys":          len(result["executed_buys"][m]),
+            "sells":         len(result["executed_sells"][m]),
             "halted":        result["halted"],
         }
-        plot_trades(prices, result["buy_points"], result["sell_points"],
+        plot_trades(prices, result["executed_buys"][m], result["executed_sells"][m],
                     dates=dates,
-                    title=f"{symbol} — sweep={cfg2['sweep']} steps={cfg2['steps']} ma={cfg2['ma_period']} cm={cfg2['counter_mult']}",
+                    title=f"{m} — shared capital  sweep={cfg2['sweep']} steps={cfg2['steps']} cm={cfg2['counter_mult']}",
                     metrics=metrics)
