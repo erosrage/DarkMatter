@@ -1,0 +1,327 @@
+2026-04-09 18:31:10  INFO      Logging in to Robinhood...
+2026-04-09 18:31:10  INFO      ONDO Grid Trader started | sweep=0.15 steps=32 order_pct=0.5 cm=10.0 circuit_breaker=20%
+2026-04-09 18:31:10  INFO      -- Cycle 1 (ONDO) ----------------------------------------
+2026-04-09 18:31:10  ERROR     Failed to fetch price: float() argument must be a string or a real number, not 'NoneType'
+2026-04-09 18:31:10  INFO      Next cycle in 60.0 min
+
+2026-04-09 18:36:45  INFO      Logging in to Robinhood...
+2026-04-09 18:36:45  INFO      ONDO Grid Trader started | sweep=0.15 steps=32 order_pct=0.5 cm=10.0 circuit_breaker=20%
+2026-04-09 18:36:45  INFO      -- Cycle 1 (ONDO) ----------------------------------------
+2026-04-09 18:36:45  ERROR     Failed to fetch price: float() argument must be a string or a real number, not 'NoneType'
+2026-04-09 18:36:45  INFO      Next cycle in 2.0 min
+
+2026-04-09 18:38:45  INFO      -- Cycle 1 (ONDO) ----------------------------------------
+2026-04-09 18:38:45  ERROR     Failed to fetch price: float() argument must be a string or a real number, not 'NoneType'
+2026-04-09 18:38:45  INFO      Next cycle in 2.0 min
+
+2026-04-09 18:39:03  INFO      Logging in to Robinhood...
+2026-04-09 18:39:03  INFO      ONDO Grid Trader started | sweep=0.15 steps=32 order_pct=0.5 cm=10.0 circuit_breaker=20%
+2026-04-09 18:39:03  INFO      -- Cycle 1 (ONDO) ----------------------------------------
+2026-04-09 18:39:04  INFO      ONDO price: $0.255295
+2026-04-09 18:39:04  INFO      Starting portfolio value: $114.28
+2026-04-09 18:39:10  INFO      No tracked orders -- placing initial buy grid.
+2026-04-09 18:39:10  INFO        BUY  224.873540 ONDO @ $0.254098
+2026-04-09 18:39:11  INFO        BUY  225.937605 ONDO @ $0.252902
+2026-04-09 18:39:11  INFO        BUY  227.011798 ONDO @ $0.251705
+2026-04-09 18:39:11  INFO        BUY  228.096244 ONDO @ $0.250508
+2026-04-09 18:39:12  INFO        BUY  229.191110 ONDO @ $0.249312
+2026-04-09 18:39:12  INFO        BUY  230.296528 ONDO @ $0.248115
+2026-04-09 18:39:12  INFO        BUY  231.412670 ONDO @ $0.246918
+2026-04-09 18:39:13  INFO        BUY  232.539684 ONDO @ $0.245722
+2026-04-09 18:39:13  INFO        BUY  233.677720 ONDO @ $0.244525
+2026-04-09 18:39:13  INFO        BUY  234.826959 ONDO @ $0.243328
+2026-04-09 18:39:13  INFO        BUY  235.987548 ONDO @ $0.242131
+2026-04-09 18:39:14  INFO        BUY  237.159675 ONDO @ $0.240935
+2026-04-09 18:39:14  INFO        BUY  238.343495 ONDO @ $0.239738
+2026-04-09 18:39:14  INFO        BUY  239.539203 ONDO @ $0.238541
+2026-04-09 18:39:15  INFO        BUY  240.746958 ONDO @ $0.237345
+2026-04-09 18:39:15  INFO        BUY  241.966964 ONDO @ $0.236148
+2026-04-09 18:39:15  INFO        BUY  243.199397 ONDO @ $0.234951
+2026-04-09 18:39:16  INFO        BUY  244.444440 ONDO @ $0.233755
+2026-04-09 18:39:16  INFO        BUY  245.702306 ONDO @ $0.232558
+2026-04-09 18:39:16  INFO        BUY  246.973174 ONDO @ $0.231361
+2026-04-09 18:39:17  INFO        BUY  248.257268 ONDO @ $0.230164
+2026-04-09 18:39:17  INFO        BUY  249.554774 ONDO @ $0.228968
+2026-04-09 18:39:17  INFO        BUY  250.865924 ONDO @ $0.227771
+2026-04-09 18:39:17  INFO        BUY  252.190925 ONDO @ $0.226574
+2026-04-09 18:39:18  INFO        BUY  253.529986 ONDO @ $0.225378
+2026-04-09 18:39:18  INFO        BUY  254.883354 ONDO @ $0.224181
+2026-04-09 18:39:18  INFO        BUY  256.251236 ONDO @ $0.222984
+2026-04-09 18:39:18  INFO        BUY  257.633892 ONDO @ $0.221788
+2026-04-09 18:39:19  INFO        BUY  259.031538 ONDO @ $0.220591
+2026-04-09 18:39:19  INFO        BUY  260.444442 ONDO @ $0.219394
+2026-04-09 18:39:19  INFO        BUY  261.872833 ONDO @ $0.218198
+2026-04-09 18:39:19  INFO        BUY  263.316989 ONDO @ $0.217001
+2026-04-09 18:39:20  INFO      Initial grid: 0 buy orders placed.
+2026-04-09 18:39:20  INFO      State saved -- 0 tracked orders.
+2026-04-09 18:39:20  INFO      Next cycle in 1.7 min
+
+2026-04-09 18:41:03  INFO      -- Cycle 2 (ONDO) ----------------------------------------
+2026-04-09 18:41:04  INFO      ONDO price: $0.254893
+2026-04-09 18:41:09  INFO      No tracked orders -- placing initial buy grid.
+2026-04-09 18:41:09  INFO        BUY  225.227826 ONDO @ $0.253699
+2026-04-09 18:41:10  INFO        BUY  226.293570 ONDO @ $0.252504
+2026-04-09 18:41:10  INFO        BUY  227.369448 ONDO @ $0.251309
+2026-04-09 18:41:10  INFO        BUY  228.455614 ONDO @ $0.250114
+2026-04-09 18:41:10  INFO        BUY  229.552198 ONDO @ $0.248919
+2026-04-09 18:41:10  INFO        BUY  230.659360 ONDO @ $0.247725
+2026-04-09 18:41:11  INFO        BUY  231.777263 ONDO @ $0.246530
+2026-04-09 18:41:11  INFO        BUY  232.906045 ONDO @ $0.245335
+2026-04-09 18:41:11  INFO        BUY  234.045876 ONDO @ $0.244140
+2026-04-09 18:41:12  INFO        BUY  235.196928 ONDO @ $0.242945
+2026-04-09 18:41:12  INFO        BUY  236.359348 ONDO @ $0.241751
+2026-04-09 18:41:12  INFO        BUY  237.533315 ONDO @ $0.240556
+2026-04-09 18:41:12  INFO        BUY  238.719012 ONDO @ $0.239361
+2026-04-09 18:41:13  INFO        BUY  239.916596 ONDO @ $0.238166
+2026-04-09 18:41:13  INFO        BUY  241.126256 ONDO @ $0.236971
+2026-04-09 18:41:14  INFO        BUY  242.348187 ONDO @ $0.235776
+2026-04-09 18:41:14  INFO        BUY  243.582555 ONDO @ $0.234582
+2026-04-09 18:41:14  INFO        BUY  244.829561 ONDO @ $0.233387
+2026-04-09 18:41:14  INFO        BUY  246.089411 ONDO @ $0.232192
+2026-04-09 18:41:14  INFO        BUY  247.362284 ONDO @ $0.230997
+2026-04-09 18:41:15  INFO        BUY  248.648393 ONDO @ $0.229802
+2026-04-09 18:41:15  INFO        BUY  249.947957 ONDO @ $0.228608
+2026-04-09 18:41:15  INFO        BUY  251.261165 ONDO @ $0.227413
+2026-04-09 18:41:15  INFO        BUY  252.588245 ONDO @ $0.226218
+2026-04-09 18:41:16  INFO        BUY  253.929429 ONDO @ $0.225023
+2026-04-09 18:41:16  INFO        BUY  255.284921 ONDO @ $0.223828
+2026-04-09 18:41:16  INFO        BUY  256.654961 ONDO @ $0.222634
+2026-04-09 18:41:16  INFO        BUY  258.039786 ONDO @ $0.221439
+2026-04-09 18:41:16  INFO        BUY  259.439648 ONDO @ $0.220244
+2026-04-09 18:41:17  INFO        BUY  260.854770 ONDO @ $0.219049
+2026-04-09 18:41:17  INFO        BUY  262.285414 ONDO @ $0.217854
+2026-04-09 18:41:17  INFO        BUY  263.731849 ONDO @ $0.216659
+2026-04-09 18:41:18  INFO      Initial grid: 0 buy orders placed.
+2026-04-09 18:41:18  INFO      State saved -- 0 tracked orders.
+2026-04-09 18:41:18  INFO      Next cycle in 1.8 min
+
+2026-04-09 18:44:07  INFO      Logging in to Robinhood...
+2026-04-09 18:44:07  INFO      ONDO Grid Trader started | sweep=0.15 steps=32 order_pct=0.5 cm=10.0 circuit_breaker=20%
+2026-04-09 18:44:07  INFO      -- Cycle 3 (ONDO) ----------------------------------------
+2026-04-09 18:44:08  INFO      ONDO price: $0.254765
+2026-04-09 18:44:14  INFO      No tracked orders -- placing initial buy grid.
+2026-04-09 18:44:14  INFO        BUY  225.341626 ONDO @ $0.253571
+2026-04-09 18:44:15  INFO        BUY  226.407911 ONDO @ $0.252376
+2026-04-09 18:44:16  INFO      Initial grid: 0 buy orders placed.
+2026-04-09 18:44:16  INFO      State saved -- 0 tracked orders.
+2026-04-09 18:44:16  INFO      Next cycle in 1.9 min
+
+2026-04-09 18:46:07  INFO      -- Cycle 4 (ONDO) ----------------------------------------
+2026-04-09 18:46:08  INFO      ONDO price: $0.254290
+2026-04-09 18:46:13  INFO      No tracked orders -- placing initial buy grid.
+2026-04-09 18:46:13  INFO        BUY  225.762335 ONDO @ $0.253098
+2026-04-09 18:46:14  INFO        BUY  226.830607 ONDO @ $0.251906
+2026-04-09 18:46:15  INFO      Initial grid: 0 buy orders placed.
+2026-04-09 18:46:15  INFO      State saved -- 0 tracked orders.
+2026-04-09 18:46:15  INFO      Next cycle in 1.9 min
+
+2026-04-09 18:47:21  INFO      Logging in to Robinhood...
+2026-04-09 18:47:21  INFO      ONDO Grid Trader started | sweep=0.15 steps=32 order_pct=0.5 cm=10.0 circuit_breaker=20%
+2026-04-09 18:47:21  INFO      -- Cycle 5 (ONDO) ----------------------------------------
+2026-04-09 18:47:22  INFO      ONDO price: $0.253983
+2026-04-09 18:47:27  INFO      No tracked orders -- placing initial buy grid.
+2026-04-09 18:47:27  INFO        BUY  226.035446 ONDO @ $0.252792
+2026-04-09 18:47:28  WARNING     Buy order rejected: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2026-04-09 18:47:29  INFO        BUY  227.105020 ONDO @ $0.251602
+2026-04-09 18:47:29  WARNING     Buy order rejected: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2026-04-09 18:47:30  INFO      Initial grid: 0 buy orders placed.
+2026-04-09 18:47:30  INFO      State saved -- 0 tracked orders.
+2026-04-09 18:47:30  INFO      Next cycle in 1.9 min
+
+2026-04-09 22:50:14  INFO      Logging in to Robinhood...
+2026-04-09 22:50:14  INFO      ONDO Grid Trader started | sweep=0.15 steps=32 order_pct=0.5 cm=10.0 circuit_breaker=20%
+2026-04-09 22:50:14  INFO      -- Cycle 6 (ONDO) ----------------------------------------
+2026-04-09 22:50:15  INFO      ONDO price: $0.255942
+2026-04-09 22:50:21  INFO      No tracked orders -- placing initial buy grid.
+2026-04-09 22:50:21  INFO        BUY  224.342364 ONDO @ $0.254700
+2026-04-09 22:50:22  WARNING     Buy order rejected: {'quantity': ['Your order quantity has too much precision. Please round the quantity to an appropriate increment and try placing your order again.']}
+2026-04-09 22:50:22  INFO        BUY  225.404339 ONDO @ $0.253500
+2026-04-09 22:50:23  WARNING     Buy order rejected: {'quantity': ['Your order quantity has too much precision. Please round the quantity to an appropriate increment and try placing your order again.']}
+2026-04-09 22:50:23  INFO      Initial grid: 0 buy orders placed.
+2026-04-09 22:50:23  INFO      State saved -- 0 tracked orders.
+2026-04-09 22:50:23  INFO      Next cycle in 1.8 min
+
+2026-04-09 23:07:04  INFO      Logging in to Robinhood...
+2026-04-09 23:07:04  INFO      ONDO Grid Trader started | sweep=0.15 steps=32 order_pct=0.5 cm=10.0 circuit_breaker=20%
+2026-04-09 23:07:04  INFO      -- Cycle 7 (ONDO) ----------------------------------------
+2026-04-09 23:07:05  INFO      ONDO price: $0.256253
+2026-04-09 23:07:11  INFO      No tracked orders -- placing initial buy grid.
+2026-04-09 23:07:11  INFO        BUY  223.990000 ONDO @ $0.255100
+2026-04-09 23:07:13  INFO        BUY  225.050000 ONDO @ $0.253900
+2026-04-09 23:07:13  WARNING     Buy order rejected: {'non_field_errors': ["You don't have enough crypto buying power in this account to place the order. Reduce amount or deposit funds."]}
+2026-04-09 23:07:14  INFO      Initial grid: 1 buy orders placed.
+2026-04-09 23:07:14  INFO      State saved -- 1 tracked orders.
+2026-04-09 23:07:14  INFO      Next cycle in 1.8 min
+
+2026-04-09 23:11:55  INFO      Logging in to Robinhood...
+2026-04-09 23:11:56  INFO      ONDO Grid Trader started | sweep=0.15 steps=32 order_pct=0.5 cm=10.0 circuit_breaker=20%
+2026-04-09 23:11:56  INFO      -- Cycle 8 (ONDO) ----------------------------------------
+2026-04-09 23:11:57  INFO      ONDO price: $0.256031
+2026-04-09 23:11:57  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-09 23:11:57  INFO      Next cycle in 2.0 min
+
+2026-04-09 23:13:56  INFO      -- Cycle 8 (ONDO) ----------------------------------------
+2026-04-09 23:13:57  INFO      ONDO price: $0.255681
+2026-04-09 23:13:57  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-09 23:13:57  INFO      Next cycle in 2.0 min
+
+2026-04-09 23:15:56  INFO      -- Cycle 8 (ONDO) ----------------------------------------
+2026-04-09 23:15:57  INFO      ONDO price: $0.256020
+2026-04-09 23:16:02  INFO      Detected 1 filled order(s) -- placing counter-orders.
+2026-04-09 23:16:02  INFO        fill BUY @ 0.255100 -> counter SELL @ 0.267100
+2026-04-09 23:16:02  INFO        SELL 223.990000 ONDO @ $0.267100
+2026-04-09 23:16:03  INFO      State saved -- 0 tracked orders.
+2026-04-09 23:16:03  INFO      Next cycle in 1.9 min
+
+2026-04-09 23:17:56  INFO      -- Cycle 9 (ONDO) ----------------------------------------
+2026-04-09 23:17:56  INFO      ONDO price: $0.256003
+2026-04-09 23:18:02  INFO      No tracked orders -- placing initial buy grid.
+2026-04-09 23:18:02  INFO        BUY  224.250000 ONDO @ $0.254800
+2026-04-09 23:18:03  INFO        BUY  225.320000 ONDO @ $0.253600
+2026-04-09 23:18:03  WARNING     Buy order rejected: {'non_field_errors': ["You don't have enough crypto buying power in this account to place the order. Reduce amount or deposit funds."]}
+2026-04-09 23:18:04  INFO      Initial grid: 1 buy orders placed.
+2026-04-09 23:18:04  INFO      State saved -- 1 tracked orders.
+2026-04-09 23:18:04  INFO      Next cycle in 1.9 min
+
+2026-04-09 23:58:24  INFO      Logging in to Robinhood...
+2026-04-09 23:58:25  INFO      ONDO Grid Trader started | sweep=0.15 steps=32 order_pct=0.5 cm=10.0 circuit_breaker=20%
+2026-04-09 23:58:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-09 23:58:26  INFO      ONDO price: $0.253465
+2026-04-09 23:58:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-09 23:58:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:00:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:00:25  INFO      ONDO price: $0.253860
+2026-04-10 00:00:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:00:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:02:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:02:26  INFO      ONDO price: $0.253202
+2026-04-10 00:02:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:02:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:04:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:04:25  INFO      ONDO price: $0.253369
+2026-04-10 00:04:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:04:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:06:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:06:25  INFO      ONDO price: $0.253346
+2026-04-10 00:06:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:06:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:08:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:08:25  INFO      ONDO price: $0.253578
+2026-04-10 00:08:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:08:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:10:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:10:25  INFO      ONDO price: $0.253738
+2026-04-10 00:10:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:10:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:12:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:12:25  INFO      ONDO price: $0.253431
+2026-04-10 00:12:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:12:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:14:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:14:25  INFO      ONDO price: $0.253285
+2026-04-10 00:14:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:14:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:16:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:16:25  INFO      ONDO price: $0.253450
+2026-04-10 00:16:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:16:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:18:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:18:25  INFO      ONDO price: $0.253536
+2026-04-10 00:18:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:18:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:20:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:20:25  INFO      ONDO price: $0.253467
+2026-04-10 00:20:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:20:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:22:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:22:25  INFO      ONDO price: $0.252991
+2026-04-10 00:22:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:22:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:24:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:24:26  INFO      ONDO price: $0.253205
+2026-04-10 00:24:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:24:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:26:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:26:25  INFO      ONDO price: $0.252966
+2026-04-10 00:26:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:26:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:28:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:28:26  INFO      ONDO price: $0.253064
+2026-04-10 00:28:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:28:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:30:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:30:26  INFO      ONDO price: $0.253117
+2026-04-10 00:30:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:30:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:32:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:32:26  INFO      ONDO price: $0.253283
+2026-04-10 00:32:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:32:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:34:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:34:26  INFO      ONDO price: $0.253530
+2026-04-10 00:34:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:34:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:36:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:36:25  INFO      ONDO price: $0.253624
+2026-04-10 00:36:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:36:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:38:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:38:26  INFO      ONDO price: $0.253507
+2026-04-10 00:38:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:38:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:40:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:40:26  INFO      ONDO price: $0.253488
+2026-04-10 00:40:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:40:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:42:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:42:26  INFO      ONDO price: $0.253424
+2026-04-10 00:42:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:42:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:44:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:44:26  INFO      ONDO price: $0.253166
+2026-04-10 00:44:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:44:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:46:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:46:25  INFO      ONDO price: $0.253162
+2026-04-10 00:46:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:46:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:48:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:48:26  INFO      ONDO price: $0.253021
+2026-04-10 00:48:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:48:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:50:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:50:26  INFO      ONDO price: $0.252969
+2026-04-10 00:50:26  CRITICAL  CIRCUIT BREAKER: portfolio $57.14 is 50.0% below start $114.28 -- HALTING.
+2026-04-10 00:50:26  INFO      Next cycle in 2.0 min
+
+2026-04-10 00:52:25  INFO      -- Cycle 10 (ONDO) ----------------------------------------
+2026-04-10 00:52:26  INFO      ONDO price: $0.252645
+2026-04-10 00:52:32  INFO      Detected 1 filled order(s) -- placing counter-orders.
+2026-04-10 00:52:32  INFO        fill BUY @ 0.254800 -> counter SELL @ 0.266700
+2026-04-10 00:52:32  INFO        SELL 224.250000 ONDO @ $0.266700

@@ -3,10 +3,10 @@ import robin_stocks.robinhood as rh
 import asyncio
 
 def login():
-    username = os.environ.get("ROBINHOOD_USERNAME")
-    password = os.environ.get("ROBINHOOD_PASSWORD")
+    username = os.environ.get("RH_USERNAME")
+    password = os.environ.get("RH_PASSWORD")
     if not username or not password:
-        raise RuntimeError("ROBINHOOD_USERNAME and ROBINHOOD_PASSWORD environment variables must be set.")
+        raise RuntimeError("RH_USERNAME and RH_PASSWORD environment variables must be set.")
     rh.login(username, password)
 
 async def get_price(symbol):
