@@ -1,0 +1,609 @@
+2026-04-14 17:04:12  INFO      Logging in to Robinhood...
+2026-04-14 17:04:12  INFO      ADA 15m Grid Trader started | sweep=0.25 steps=48 order_pct=0.5 cm=12.0 interval=900s circuit_breaker=20%
+2026-04-14 17:04:12  INFO      -- Cycle 175 (ADA) ----------------------------------------
+2026-04-14 17:04:13  INFO      ADA price: $0.240175
+2026-04-14 17:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 17:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 17:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 17:19:12  INFO      -- Cycle 176 (ADA) ----------------------------------------
+2026-04-14 17:19:13  INFO      ADA price: $0.240196
+2026-04-14 17:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 17:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 17:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 17:34:12  INFO      -- Cycle 177 (ADA) ----------------------------------------
+2026-04-14 17:34:13  INFO      ADA price: $0.240346
+2026-04-14 17:34:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 17:34:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 17:34:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 17:49:12  INFO      -- Cycle 178 (ADA) ----------------------------------------
+2026-04-14 17:49:13  INFO      ADA price: $0.240348
+2026-04-14 17:49:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 17:49:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 17:49:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 18:04:12  INFO      -- Cycle 179 (ADA) ----------------------------------------
+2026-04-14 18:04:13  INFO      ADA price: $0.240738
+2026-04-14 18:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 18:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 18:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 18:19:12  INFO      -- Cycle 180 (ADA) ----------------------------------------
+2026-04-14 18:19:13  INFO      ADA price: $0.241128
+2026-04-14 18:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 18:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 18:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 18:34:12  INFO      -- Cycle 181 (ADA) ----------------------------------------
+2026-04-14 18:34:13  INFO      ADA price: $0.240620
+2026-04-14 18:34:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 18:34:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 18:34:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 18:49:12  INFO      -- Cycle 182 (ADA) ----------------------------------------
+2026-04-14 18:49:13  INFO      ADA price: $0.240815
+2026-04-14 18:49:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 18:49:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 18:49:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 19:04:12  INFO      -- Cycle 183 (ADA) ----------------------------------------
+2026-04-14 19:04:13  INFO      ADA price: $0.241169
+2026-04-14 19:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 19:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 19:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 19:19:12  INFO      -- Cycle 184 (ADA) ----------------------------------------
+2026-04-14 19:19:13  INFO      ADA price: $0.240962
+2026-04-14 19:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 19:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 19:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 19:34:12  INFO      -- Cycle 185 (ADA) ----------------------------------------
+2026-04-14 19:34:13  INFO      ADA price: $0.239659
+2026-04-14 19:34:19  INFO      No fills detected. 1 orders still open.
+2026-04-14 19:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-14 19:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 19:49:12  INFO      -- Cycle 186 (ADA) ----------------------------------------
+2026-04-14 19:49:14  INFO      ADA price: $0.239324
+2026-04-14 19:49:19  INFO      No fills detected. 1 orders still open.
+2026-04-14 19:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-14 19:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 20:04:12  INFO      -- Cycle 187 (ADA) ----------------------------------------
+2026-04-14 20:04:13  INFO      ADA price: $0.239628
+2026-04-14 20:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 20:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 20:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 20:19:12  INFO      -- Cycle 188 (ADA) ----------------------------------------
+2026-04-14 20:19:13  INFO      ADA price: $0.239382
+2026-04-14 20:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 20:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 20:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 20:34:12  INFO      -- Cycle 189 (ADA) ----------------------------------------
+2026-04-14 20:34:13  INFO      ADA price: $0.240142
+2026-04-14 20:34:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 20:34:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 20:34:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 20:49:12  INFO      -- Cycle 190 (ADA) ----------------------------------------
+2026-04-14 20:49:13  INFO      ADA price: $0.239922
+2026-04-14 20:49:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 20:49:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 20:49:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 21:04:12  INFO      -- Cycle 191 (ADA) ----------------------------------------
+2026-04-14 21:04:13  INFO      ADA price: $0.240414
+2026-04-14 21:04:19  INFO      No fills detected. 1 orders still open.
+2026-04-14 21:04:19  INFO      State saved -- 1 tracked orders.
+2026-04-14 21:04:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 21:19:12  INFO      -- Cycle 192 (ADA) ----------------------------------------
+2026-04-14 21:19:13  INFO      ADA price: $0.240431
+2026-04-14 21:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 21:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 21:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 21:34:12  INFO      -- Cycle 193 (ADA) ----------------------------------------
+2026-04-14 21:34:14  INFO      ADA price: $0.239725
+2026-04-14 21:34:19  INFO      No fills detected. 1 orders still open.
+2026-04-14 21:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-14 21:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 21:49:12  INFO      -- Cycle 194 (ADA) ----------------------------------------
+2026-04-14 21:49:14  INFO      ADA price: $0.239972
+2026-04-14 21:49:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 21:49:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 21:49:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 22:04:12  INFO      -- Cycle 195 (ADA) ----------------------------------------
+2026-04-14 22:04:14  INFO      ADA price: $0.241798
+2026-04-14 22:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 22:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 22:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 22:19:12  INFO      -- Cycle 196 (ADA) ----------------------------------------
+2026-04-14 22:19:14  INFO      ADA price: $0.240819
+2026-04-14 22:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 22:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 22:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 22:34:12  INFO      -- Cycle 197 (ADA) ----------------------------------------
+2026-04-14 22:34:14  INFO      ADA price: $0.239779
+2026-04-14 22:34:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 22:34:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 22:34:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 22:49:12  INFO      -- Cycle 198 (ADA) ----------------------------------------
+2026-04-14 22:49:13  INFO      ADA price: $0.239582
+2026-04-14 22:49:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 22:49:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 22:49:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 23:04:12  INFO      -- Cycle 199 (ADA) ----------------------------------------
+2026-04-14 23:04:14  INFO      ADA price: $0.239465
+2026-04-14 23:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 23:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 23:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 23:19:12  INFO      -- Cycle 200 (ADA) ----------------------------------------
+2026-04-14 23:19:14  INFO      ADA price: $0.239375
+2026-04-14 23:19:19  INFO      No fills detected. 1 orders still open.
+2026-04-14 23:19:19  INFO      State saved -- 1 tracked orders.
+2026-04-14 23:19:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 23:34:12  INFO      -- Cycle 201 (ADA) ----------------------------------------
+2026-04-14 23:34:14  INFO      ADA price: $0.239554
+2026-04-14 23:34:19  INFO      No fills detected. 1 orders still open.
+2026-04-14 23:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-14 23:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 23:49:12  INFO      -- Cycle 202 (ADA) ----------------------------------------
+2026-04-14 23:49:14  INFO      ADA price: $0.239329
+2026-04-14 23:49:18  INFO      No fills detected. 1 orders still open.
+2026-04-14 23:49:18  INFO      State saved -- 1 tracked orders.
+2026-04-14 23:49:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 00:04:12  INFO      -- Cycle 203 (ADA) ----------------------------------------
+2026-04-15 00:04:14  INFO      ADA price: $0.239026
+2026-04-15 00:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 00:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 00:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 00:19:12  INFO      -- Cycle 204 (ADA) ----------------------------------------
+2026-04-15 00:19:14  INFO      ADA price: $0.238815
+2026-04-15 00:19:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 00:19:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 00:19:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 00:34:12  INFO      -- Cycle 205 (ADA) ----------------------------------------
+2026-04-15 00:34:14  INFO      ADA price: $0.238944
+2026-04-15 00:34:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 00:34:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 00:34:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 00:49:12  INFO      -- Cycle 206 (ADA) ----------------------------------------
+2026-04-15 00:49:14  INFO      ADA price: $0.238428
+2026-04-15 00:49:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 00:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 00:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 01:04:12  INFO      -- Cycle 207 (ADA) ----------------------------------------
+2026-04-15 01:04:14  INFO      ADA price: $0.239165
+2026-04-15 01:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 01:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 01:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 01:19:13  INFO      -- Cycle 208 (ADA) ----------------------------------------
+2026-04-15 01:19:13  INFO      ADA price: $0.239419
+2026-04-15 01:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 01:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 01:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 01:34:13  INFO      -- Cycle 209 (ADA) ----------------------------------------
+2026-04-15 01:34:14  INFO      ADA price: $0.240414
+2026-04-15 01:34:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 01:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 01:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 01:49:13  INFO      -- Cycle 210 (ADA) ----------------------------------------
+2026-04-15 01:49:14  INFO      ADA price: $0.239809
+2026-04-15 01:49:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 01:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 01:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 02:04:13  INFO      -- Cycle 211 (ADA) ----------------------------------------
+2026-04-15 02:04:14  INFO      ADA price: $0.240043
+2026-04-15 02:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 02:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 02:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 02:19:13  INFO      -- Cycle 212 (ADA) ----------------------------------------
+2026-04-15 02:19:14  INFO      ADA price: $0.240174
+2026-04-15 02:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 02:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 02:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 02:34:13  INFO      -- Cycle 213 (ADA) ----------------------------------------
+2026-04-15 02:34:14  INFO      ADA price: $0.240037
+2026-04-15 02:34:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 02:34:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 02:34:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 02:49:13  INFO      -- Cycle 214 (ADA) ----------------------------------------
+2026-04-15 02:49:14  INFO      ADA price: $0.239883
+2026-04-15 02:49:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 02:49:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 02:49:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 03:04:13  INFO      -- Cycle 215 (ADA) ----------------------------------------
+2026-04-15 03:04:14  INFO      ADA price: $0.240215
+2026-04-15 03:04:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 03:04:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 03:04:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 03:19:13  INFO      -- Cycle 216 (ADA) ----------------------------------------
+2026-04-15 03:19:14  INFO      ADA price: $0.240202
+2026-04-15 03:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 03:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 03:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 03:34:13  INFO      -- Cycle 217 (ADA) ----------------------------------------
+2026-04-15 03:34:14  INFO      ADA price: $0.239178
+2026-04-15 03:34:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 03:34:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 03:34:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 03:49:13  INFO      -- Cycle 218 (ADA) ----------------------------------------
+2026-04-15 03:49:14  INFO      ADA price: $0.240874
+2026-04-15 03:49:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 03:49:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 03:49:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 04:04:13  INFO      -- Cycle 219 (ADA) ----------------------------------------
+2026-04-15 04:04:14  INFO      ADA price: $0.240291
+2026-04-15 04:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 04:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 04:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 04:19:13  INFO      -- Cycle 220 (ADA) ----------------------------------------
+2026-04-15 04:19:14  INFO      ADA price: $0.240861
+2026-04-15 04:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 04:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 04:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 04:34:13  INFO      -- Cycle 221 (ADA) ----------------------------------------
+2026-04-15 04:34:14  INFO      ADA price: $0.240879
+2026-04-15 04:34:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 04:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 04:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 04:49:13  INFO      -- Cycle 222 (ADA) ----------------------------------------
+2026-04-15 04:49:14  INFO      ADA price: $0.241759
+2026-04-15 04:49:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 04:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 04:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 05:04:13  INFO      -- Cycle 223 (ADA) ----------------------------------------
+2026-04-15 05:04:14  INFO      ADA price: $0.241854
+2026-04-15 05:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 05:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 05:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 05:19:13  INFO      -- Cycle 224 (ADA) ----------------------------------------
+2026-04-15 05:19:14  INFO      ADA price: $0.241504
+2026-04-15 05:19:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 05:19:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 05:19:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 05:34:13  INFO      -- Cycle 225 (ADA) ----------------------------------------
+2026-04-15 05:34:14  INFO      ADA price: $0.241775
+2026-04-15 05:34:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 05:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 05:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 05:49:13  INFO      -- Cycle 226 (ADA) ----------------------------------------
+2026-04-15 05:49:14  INFO      ADA price: $0.242351
+2026-04-15 05:49:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 05:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 05:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 06:04:13  INFO      -- Cycle 227 (ADA) ----------------------------------------
+2026-04-15 06:04:14  INFO      ADA price: $0.241542
+2026-04-15 06:04:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 06:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 06:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 06:19:13  INFO      -- Cycle 228 (ADA) ----------------------------------------
+2026-04-15 06:19:14  INFO      ADA price: $0.241965
+2026-04-15 06:19:18  INFO      No fills detected. 1 orders still open.
+2026-04-15 06:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 06:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 06:34:13  INFO      -- Cycle 229 (ADA) ----------------------------------------
+2026-04-15 06:34:14  INFO      ADA price: $0.241725
+2026-04-15 06:34:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 06:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 06:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 06:49:13  INFO      -- Cycle 230 (ADA) ----------------------------------------
+2026-04-15 06:49:14  INFO      ADA price: $0.240770
+2026-04-15 06:49:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 06:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 06:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 07:04:13  INFO      -- Cycle 231 (ADA) ----------------------------------------
+2026-04-15 07:04:14  INFO      ADA price: $0.240872
+2026-04-15 07:04:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 07:04:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 07:04:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 07:19:13  INFO      -- Cycle 232 (ADA) ----------------------------------------
+2026-04-15 07:19:14  INFO      ADA price: $0.241671
+2026-04-15 07:19:19  INFO      No fills detected. 1 orders still open.
+2026-04-15 07:19:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 07:19:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 07:34:13  INFO      -- Cycle 233 (ADA) ----------------------------------------
+2026-04-15 07:34:14  INFO      ADA price: $0.242098
+2026-04-15 07:34:18  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 07:34:18  INFO      No fills detected. 0 orders still open.
+2026-04-15 07:34:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 07:34:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 07:49:13  INFO      -- Cycle 234 (ADA) ----------------------------------------
+2026-04-15 07:49:14  INFO      ADA price: $0.242426
+2026-04-15 07:49:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 07:49:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 07:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 07:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 08:04:13  INFO      -- Cycle 235 (ADA) ----------------------------------------
+2026-04-15 08:04:14  INFO      ADA price: $0.243533
+2026-04-15 08:04:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 08:04:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 08:04:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 08:04:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 08:19:13  INFO      -- Cycle 236 (ADA) ----------------------------------------
+2026-04-15 08:19:14  INFO      ADA price: $0.242829
+2026-04-15 08:19:18  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 08:19:18  INFO      No fills detected. 0 orders still open.
+2026-04-15 08:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 08:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 08:34:13  INFO      -- Cycle 237 (ADA) ----------------------------------------
+2026-04-15 08:34:14  INFO      ADA price: $0.242202
+2026-04-15 08:34:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 08:34:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 08:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 08:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 08:49:13  INFO      -- Cycle 238 (ADA) ----------------------------------------
+2026-04-15 08:49:14  INFO      ADA price: $0.242943
+2026-04-15 08:49:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 08:49:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 08:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 08:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 09:04:13  INFO      -- Cycle 239 (ADA) ----------------------------------------
+2026-04-15 09:04:14  INFO      ADA price: $0.243285
+2026-04-15 09:04:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 09:04:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 09:04:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 09:04:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 09:19:13  INFO      -- Cycle 240 (ADA) ----------------------------------------
+2026-04-15 09:19:14  INFO      ADA price: $0.244979
+2026-04-15 09:19:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 09:19:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 09:19:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 09:19:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 09:34:13  INFO      -- Cycle 241 (ADA) ----------------------------------------
+2026-04-15 09:34:14  INFO      ADA price: $0.245580
+2026-04-15 09:34:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 09:34:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 09:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 09:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 09:49:13  INFO      -- Cycle 242 (ADA) ----------------------------------------
+2026-04-15 09:49:14  INFO      ADA price: $0.245373
+2026-04-15 09:49:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 09:49:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 09:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 09:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 10:04:13  INFO      -- Cycle 243 (ADA) ----------------------------------------
+2026-04-15 10:04:14  INFO      ADA price: $0.245994
+2026-04-15 10:04:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 10:04:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 10:04:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 10:04:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 10:19:13  INFO      -- Cycle 244 (ADA) ----------------------------------------
+2026-04-15 10:19:14  INFO      ADA price: $0.245877
+2026-04-15 10:19:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 10:19:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 10:19:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 10:19:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 10:34:13  INFO      -- Cycle 245 (ADA) ----------------------------------------
+2026-04-15 10:34:14  INFO      ADA price: $0.245519
+2026-04-15 10:34:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 10:34:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 10:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 10:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 10:49:13  INFO      -- Cycle 246 (ADA) ----------------------------------------
+2026-04-15 10:49:14  INFO      ADA price: $0.245002
+2026-04-15 10:49:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 10:49:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 10:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 10:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 11:04:13  INFO      -- Cycle 247 (ADA) ----------------------------------------
+2026-04-15 11:04:14  INFO      ADA price: $0.246529
+2026-04-15 11:04:18  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 11:04:18  INFO      No fills detected. 0 orders still open.
+2026-04-15 11:04:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 11:04:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 11:19:13  INFO      -- Cycle 248 (ADA) ----------------------------------------
+2026-04-15 11:19:14  INFO      ADA price: $0.246112
+2026-04-15 11:19:18  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 11:19:18  INFO      No fills detected. 0 orders still open.
+2026-04-15 11:19:18  INFO      State saved -- 1 tracked orders.
+2026-04-15 11:19:18  INFO      Next cycle in 14.9 min
+
+2026-04-15 11:34:13  INFO      -- Cycle 249 (ADA) ----------------------------------------
+2026-04-15 11:34:14  INFO      ADA price: $0.245548
+2026-04-15 11:34:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 11:34:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 11:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 11:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 11:49:13  INFO      -- Cycle 250 (ADA) ----------------------------------------
+2026-04-15 11:49:14  INFO      ADA price: $0.245488
+2026-04-15 11:49:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 11:49:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 11:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 11:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 12:04:13  INFO      -- Cycle 251 (ADA) ----------------------------------------
+2026-04-15 12:04:14  INFO      ADA price: $0.246399
+2026-04-15 12:04:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 12:04:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 12:04:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 12:04:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 12:19:13  INFO      -- Cycle 252 (ADA) ----------------------------------------
+2026-04-15 12:19:15  INFO      ADA price: $0.246752
+2026-04-15 12:19:20  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 12:19:20  INFO      No fills detected. 0 orders still open.
+2026-04-15 12:19:20  INFO      State saved -- 1 tracked orders.
+2026-04-15 12:19:20  INFO      Next cycle in 14.9 min
+
+2026-04-15 12:34:13  INFO      -- Cycle 253 (ADA) ----------------------------------------
+2026-04-15 12:34:14  INFO      ADA price: $0.247821
+2026-04-15 12:34:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 12:34:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 12:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 12:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 12:49:13  INFO      -- Cycle 254 (ADA) ----------------------------------------
+2026-04-15 12:49:14  INFO      ADA price: $0.249498
+2026-04-15 12:49:20  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 12:49:20  INFO      No fills detected. 0 orders still open.
+2026-04-15 12:49:20  INFO      State saved -- 1 tracked orders.
+2026-04-15 12:49:20  INFO      Next cycle in 14.9 min
+
+2026-04-15 13:04:13  INFO      -- Cycle 255 (ADA) ----------------------------------------
+2026-04-15 13:04:14  INFO      ADA price: $0.248673
+2026-04-15 13:04:20  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 13:04:20  INFO      No fills detected. 0 orders still open.
+2026-04-15 13:04:20  INFO      State saved -- 1 tracked orders.
+2026-04-15 13:04:20  INFO      Next cycle in 14.9 min
+
+2026-04-15 13:19:13  INFO      -- Cycle 256 (ADA) ----------------------------------------
+2026-04-15 13:19:15  INFO      ADA price: $0.247398
+2026-04-15 13:19:20  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 13:19:20  INFO      No fills detected. 0 orders still open.
+2026-04-15 13:19:20  INFO      State saved -- 1 tracked orders.
+2026-04-15 13:19:20  INFO      Next cycle in 14.9 min
+
+2026-04-15 13:34:13  INFO      -- Cycle 257 (ADA) ----------------------------------------
+2026-04-15 13:34:14  INFO      ADA price: $0.247695
+2026-04-15 13:34:20  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 13:34:20  INFO      No fills detected. 0 orders still open.
+2026-04-15 13:34:20  INFO      State saved -- 1 tracked orders.
+2026-04-15 13:34:20  INFO      Next cycle in 14.9 min
+
+2026-04-15 13:49:13  INFO      -- Cycle 258 (ADA) ----------------------------------------
+2026-04-15 13:49:14  INFO      ADA price: $0.247546
+2026-04-15 13:49:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 13:49:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 13:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 13:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 14:04:13  INFO      -- Cycle 259 (ADA) ----------------------------------------
+2026-04-15 14:04:14  INFO      ADA price: $0.247836
+2026-04-15 14:04:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 14:04:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 14:04:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 14:04:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 14:19:13  INFO      -- Cycle 260 (ADA) ----------------------------------------
+2026-04-15 14:19:14  INFO      ADA price: $0.246952
+2026-04-15 14:19:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 14:19:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 14:19:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 14:19:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 14:34:13  INFO      -- Cycle 261 (ADA) ----------------------------------------
+2026-04-15 14:34:14  INFO      ADA price: $0.247391
+2026-04-15 14:34:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 14:34:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 14:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 14:34:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 14:49:13  INFO      -- Cycle 262 (ADA) ----------------------------------------
+2026-04-15 14:49:15  INFO      ADA price: $0.248236
+2026-04-15 14:49:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 14:49:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 14:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 14:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 15:04:13  INFO      -- Cycle 263 (ADA) ----------------------------------------
+2026-04-15 15:04:14  INFO      ADA price: $0.248896
+2026-04-15 15:04:20  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 15:04:20  INFO      No fills detected. 0 orders still open.
+2026-04-15 15:04:20  INFO      State saved -- 1 tracked orders.
+2026-04-15 15:04:20  INFO      Next cycle in 14.9 min
+
+2026-04-15 15:19:13  INFO      -- Cycle 264 (ADA) ----------------------------------------
+2026-04-15 15:19:14  INFO      ADA price: $0.248285
+2026-04-15 15:19:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 15:19:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 15:19:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 15:19:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 15:34:13  INFO      -- Cycle 265 (ADA) ----------------------------------------
+2026-04-15 15:34:15  INFO      ADA price: $0.247908
+2026-04-15 15:34:20  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 15:34:20  INFO      No fills detected. 0 orders still open.
+2026-04-15 15:34:20  INFO      State saved -- 1 tracked orders.
+2026-04-15 15:34:20  INFO      Next cycle in 14.9 min
+
+2026-04-15 15:49:13  INFO      -- Cycle 266 (ADA) ----------------------------------------
+2026-04-15 15:49:15  INFO      ADA price: $0.248764
+2026-04-15 15:49:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 15:49:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 15:49:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 15:49:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 16:04:13  INFO      -- Cycle 267 (ADA) ----------------------------------------
+2026-04-15 16:04:14  INFO      ADA price: $0.246847
+2026-04-15 16:04:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 16:04:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 16:04:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 16:04:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 16:19:13  INFO      -- Cycle 268 (ADA) ----------------------------------------
+2026-04-15 16:19:14  INFO      ADA price: $0.246213
+2026-04-15 16:19:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 16:19:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 16:19:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 16:19:19  INFO      Next cycle in 14.9 min
+
+2026-04-15 16:34:13  INFO      -- Cycle 269 (ADA) ----------------------------------------
+2026-04-15 16:34:14  INFO      ADA price: $0.246155
+2026-04-15 16:34:19  INFO        Order 69dc3fba... was canceled -- skipping counter
+2026-04-15 16:34:19  INFO      No fills detected. 0 orders still open.
+2026-04-15 16:34:19  INFO      State saved -- 1 tracked orders.
+2026-04-15 16:34:19  INFO      Next cycle in 14.9 min
+

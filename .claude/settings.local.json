@@ -13,7 +13,8 @@
       "Bash(tasklist)",
       "Bash(python -c \"import yfinance; print\\(yfinance.__version__\\)\")",
       "Bash(python:*)",
-      "Bash(pkill -f param_search_15m.py)"
+      "Bash(pkill -f param_search_15m.py)",
+      "Bash(python3 *)"
     ]
   }
 }

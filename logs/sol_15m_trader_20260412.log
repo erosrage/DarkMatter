@@ -1,0 +1,1248 @@
+2026-04-12 12:30:54  INFO      Logging in to Robinhood...
+2026-04-12 12:30:54  INFO      SOL 15m Grid Trader started | sweep=0.15 steps=20 order_pct=0.5 cm=12.0 interval=900s circuit_breaker=20%
+2026-04-12 12:30:54  INFO      -- Cycle 1 (SOL) ----------------------------------------
+2026-04-12 12:30:55  INFO      SOL price: $82.2407
+2026-04-12 12:30:56  INFO      Starting portfolio value: $610.94
+2026-04-12 12:31:01  INFO      No tracked orders -- placing initial buy grid.
+2026-04-12 12:31:01  INFO        BUY  3.74 SOL @ $81.6200
+2026-04-12 12:31:03  INFO        BUY  3.77 SOL @ $81.0100
+2026-04-12 12:31:04  INFO      Initial grid: 2 buy orders placed.
+2026-04-12 12:31:04  INFO      State saved -- 2 tracked orders.
+2026-04-12 12:31:04  INFO      Next cycle in 14.8 min
+
+2026-04-12 12:45:54  INFO      -- Cycle 2 (SOL) ----------------------------------------
+2026-04-12 12:45:55  INFO      SOL price: $82.1283
+2026-04-12 12:46:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 12:46:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 12:46:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 13:00:54  INFO      -- Cycle 3 (SOL) ----------------------------------------
+2026-04-12 13:00:56  INFO      SOL price: $82.0574
+2026-04-12 13:01:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 13:01:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 13:01:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 13:15:54  INFO      -- Cycle 4 (SOL) ----------------------------------------
+2026-04-12 13:15:55  INFO      SOL price: $82.0530
+2026-04-12 13:16:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 13:16:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 13:16:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 13:30:54  INFO      -- Cycle 5 (SOL) ----------------------------------------
+2026-04-12 13:30:56  INFO      SOL price: $82.1307
+2026-04-12 13:31:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 13:31:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 13:31:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 13:45:54  INFO      -- Cycle 6 (SOL) ----------------------------------------
+2026-04-12 13:45:55  INFO      SOL price: $82.7248
+2026-04-12 13:46:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 13:46:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 13:46:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 14:00:54  INFO      -- Cycle 7 (SOL) ----------------------------------------
+2026-04-12 14:00:55  INFO      SOL price: $82.7739
+2026-04-12 14:01:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 14:01:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 14:01:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 14:15:54  INFO      -- Cycle 8 (SOL) ----------------------------------------
+2026-04-12 14:15:55  INFO      SOL price: $82.6650
+2026-04-12 14:16:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 14:16:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 14:16:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 14:30:54  INFO      -- Cycle 9 (SOL) ----------------------------------------
+2026-04-12 14:30:56  INFO      SOL price: $82.7038
+2026-04-12 14:31:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 14:31:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 14:31:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 14:45:54  INFO      -- Cycle 10 (SOL) ----------------------------------------
+2026-04-12 14:45:56  INFO      SOL price: $82.7773
+2026-04-12 14:46:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 14:46:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 14:46:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 15:00:54  INFO      -- Cycle 11 (SOL) ----------------------------------------
+2026-04-12 15:00:56  INFO      SOL price: $82.3123
+2026-04-12 15:01:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 15:01:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 15:01:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 15:15:54  INFO      -- Cycle 12 (SOL) ----------------------------------------
+2026-04-12 15:15:56  INFO      SOL price: $82.0186
+2026-04-12 15:16:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 15:16:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 15:16:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 15:30:54  INFO      -- Cycle 13 (SOL) ----------------------------------------
+2026-04-12 15:30:56  INFO      SOL price: $81.4608
+2026-04-12 15:31:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 15:31:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 15:31:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 15:45:54  INFO      -- Cycle 14 (SOL) ----------------------------------------
+2026-04-12 15:45:56  INFO      SOL price: $81.8854
+2026-04-12 15:46:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 15:46:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 15:46:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 16:00:54  INFO      -- Cycle 15 (SOL) ----------------------------------------
+2026-04-12 16:00:56  INFO      SOL price: $81.8428
+2026-04-12 16:01:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 16:01:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 16:01:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 16:15:54  INFO      -- Cycle 16 (SOL) ----------------------------------------
+2026-04-12 16:15:56  INFO      SOL price: $81.4932
+2026-04-12 16:16:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 16:16:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 16:16:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 16:30:55  INFO      -- Cycle 17 (SOL) ----------------------------------------
+2026-04-12 16:30:56  INFO      SOL price: $81.3991
+2026-04-12 16:31:01  INFO      No fills detected. 2 orders still open.
+2026-04-12 16:31:01  INFO      State saved -- 2 tracked orders.
+2026-04-12 16:31:01  INFO      Next cycle in 14.9 min
+
+2026-04-12 16:31:10  INFO      Logging in to Robinhood...
+2026-04-12 16:31:11  INFO      SOL 15m Grid Trader started | sweep=0.15 steps=20 order_pct=0.5 cm=12.0 interval=900s circuit_breaker=20%
+2026-04-12 16:31:11  INFO      -- Cycle 18 (SOL) ----------------------------------------
+2026-04-12 16:31:11  INFO      SOL price: $81.3294
+2026-04-12 16:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 16:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 16:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 16:46:11  INFO      -- Cycle 19 (SOL) ----------------------------------------
+2026-04-12 16:46:12  INFO      SOL price: $81.4780
+2026-04-12 16:46:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 16:46:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 16:46:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 17:01:11  INFO      -- Cycle 20 (SOL) ----------------------------------------
+2026-04-12 17:01:12  INFO      SOL price: $81.4359
+2026-04-12 17:01:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 17:01:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 17:01:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 17:16:11  INFO      -- Cycle 21 (SOL) ----------------------------------------
+2026-04-12 17:16:12  INFO      SOL price: $81.7591
+2026-04-12 17:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 17:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 17:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-12 17:31:11  INFO      -- Cycle 22 (SOL) ----------------------------------------
+2026-04-12 17:31:12  INFO      SOL price: $81.7709
+2026-04-12 17:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 17:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 17:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 17:46:11  INFO      -- Cycle 23 (SOL) ----------------------------------------
+2026-04-12 17:46:12  INFO      SOL price: $81.8760
+2026-04-12 17:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 17:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 17:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-12 18:01:11  INFO      -- Cycle 24 (SOL) ----------------------------------------
+2026-04-12 18:01:12  INFO      SOL price: $82.1791
+2026-04-12 18:01:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 18:01:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 18:01:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 18:16:11  INFO      -- Cycle 25 (SOL) ----------------------------------------
+2026-04-12 18:16:12  INFO      SOL price: $82.0058
+2026-04-12 18:16:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 18:16:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 18:16:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 18:31:11  INFO      -- Cycle 26 (SOL) ----------------------------------------
+2026-04-12 18:31:12  INFO      SOL price: $82.0010
+2026-04-12 18:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 18:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 18:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 18:46:11  INFO      -- Cycle 27 (SOL) ----------------------------------------
+2026-04-12 18:46:12  INFO      SOL price: $82.2136
+2026-04-12 18:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 18:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 18:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-12 19:01:11  INFO      -- Cycle 28 (SOL) ----------------------------------------
+2026-04-12 19:01:12  INFO      SOL price: $82.3845
+2026-04-12 19:01:16  INFO      No fills detected. 2 orders still open.
+2026-04-12 19:01:16  INFO      State saved -- 2 tracked orders.
+2026-04-12 19:01:16  INFO      Next cycle in 14.9 min
+
+2026-04-12 19:16:11  INFO      -- Cycle 29 (SOL) ----------------------------------------
+2026-04-12 19:16:12  INFO      SOL price: $82.0612
+2026-04-12 19:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 19:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 19:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-12 19:31:11  INFO      -- Cycle 30 (SOL) ----------------------------------------
+2026-04-12 19:31:12  INFO      SOL price: $82.3975
+2026-04-12 19:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 19:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 19:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 19:46:11  INFO      -- Cycle 31 (SOL) ----------------------------------------
+2026-04-12 19:46:12  INFO      SOL price: $81.9869
+2026-04-12 19:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 19:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 19:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-12 20:01:11  INFO      -- Cycle 32 (SOL) ----------------------------------------
+2026-04-12 20:01:12  INFO      SOL price: $81.8615
+2026-04-12 20:01:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 20:01:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 20:01:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 20:16:11  INFO      -- Cycle 33 (SOL) ----------------------------------------
+2026-04-12 20:16:12  INFO      SOL price: $81.8387
+2026-04-12 20:16:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 20:16:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 20:16:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 20:31:11  INFO      -- Cycle 34 (SOL) ----------------------------------------
+2026-04-12 20:31:12  INFO      SOL price: $82.0009
+2026-04-12 20:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 20:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 20:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 20:46:11  INFO      -- Cycle 35 (SOL) ----------------------------------------
+2026-04-12 20:46:12  INFO      SOL price: $81.8597
+2026-04-12 20:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 20:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 20:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-12 21:01:11  INFO      -- Cycle 36 (SOL) ----------------------------------------
+2026-04-12 21:01:12  INFO      SOL price: $82.0103
+2026-04-12 21:01:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 21:01:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 21:01:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 21:16:11  INFO      -- Cycle 37 (SOL) ----------------------------------------
+2026-04-12 21:16:12  INFO      SOL price: $81.9485
+2026-04-12 21:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 21:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 21:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-12 21:31:11  INFO      -- Cycle 38 (SOL) ----------------------------------------
+2026-04-12 21:31:12  INFO      SOL price: $82.0414
+2026-04-12 21:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 21:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 21:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 21:46:11  INFO      -- Cycle 39 (SOL) ----------------------------------------
+2026-04-12 21:46:12  INFO      SOL price: $82.0794
+2026-04-12 21:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 21:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 21:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-12 22:01:11  INFO      -- Cycle 40 (SOL) ----------------------------------------
+2026-04-12 22:01:12  INFO      SOL price: $81.8804
+2026-04-12 22:01:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 22:01:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 22:01:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 22:16:11  INFO      -- Cycle 41 (SOL) ----------------------------------------
+2026-04-12 22:16:12  INFO      SOL price: $81.7847
+2026-04-12 22:16:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 22:16:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 22:16:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 22:31:11  INFO      -- Cycle 42 (SOL) ----------------------------------------
+2026-04-12 22:31:12  INFO      SOL price: $81.7403
+2026-04-12 22:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 22:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 22:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 22:46:11  INFO      -- Cycle 43 (SOL) ----------------------------------------
+2026-04-12 22:46:12  INFO      SOL price: $81.7620
+2026-04-12 22:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 22:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 22:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-12 23:01:11  INFO      -- Cycle 44 (SOL) ----------------------------------------
+2026-04-12 23:01:12  INFO      SOL price: $81.9066
+2026-04-12 23:01:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 23:01:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 23:01:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 23:16:11  INFO      -- Cycle 45 (SOL) ----------------------------------------
+2026-04-12 23:16:12  INFO      SOL price: $82.0510
+2026-04-12 23:16:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 23:16:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 23:16:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 23:31:11  INFO      -- Cycle 46 (SOL) ----------------------------------------
+2026-04-12 23:31:12  INFO      SOL price: $82.3791
+2026-04-12 23:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-12 23:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-12 23:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-12 23:46:11  INFO      -- Cycle 47 (SOL) ----------------------------------------
+2026-04-12 23:46:12  INFO      SOL price: $82.3736
+2026-04-12 23:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-12 23:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-12 23:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 00:01:11  INFO      -- Cycle 48 (SOL) ----------------------------------------
+2026-04-13 00:01:12  INFO      SOL price: $82.3180
+2026-04-13 00:01:17  INFO      No fills detected. 2 orders still open.
+2026-04-13 00:01:17  INFO      State saved -- 2 tracked orders.
+2026-04-13 00:01:17  INFO      Next cycle in 14.9 min
+
+2026-04-13 00:16:11  INFO      -- Cycle 49 (SOL) ----------------------------------------
+2026-04-13 00:16:12  INFO      SOL price: $82.1956
+2026-04-13 00:16:17  INFO      No fills detected. 2 orders still open.
+2026-04-13 00:16:17  INFO      State saved -- 2 tracked orders.
+2026-04-13 00:16:17  INFO      Next cycle in 14.9 min
+
+2026-04-13 00:31:11  INFO      -- Cycle 50 (SOL) ----------------------------------------
+2026-04-13 00:31:12  INFO      SOL price: $82.0344
+2026-04-13 00:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 00:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 00:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 00:46:11  INFO      -- Cycle 51 (SOL) ----------------------------------------
+2026-04-13 00:46:12  INFO      SOL price: $82.0347
+2026-04-13 00:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 00:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 00:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 01:01:11  INFO      -- Cycle 52 (SOL) ----------------------------------------
+2026-04-13 01:01:12  INFO      SOL price: $82.0965
+2026-04-13 01:01:17  INFO      No fills detected. 2 orders still open.
+2026-04-13 01:01:17  INFO      State saved -- 2 tracked orders.
+2026-04-13 01:01:17  INFO      Next cycle in 14.9 min
+
+2026-04-13 01:16:11  INFO      -- Cycle 53 (SOL) ----------------------------------------
+2026-04-13 01:16:12  INFO      SOL price: $82.0004
+2026-04-13 01:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 01:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 01:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 01:31:11  INFO      -- Cycle 54 (SOL) ----------------------------------------
+2026-04-13 01:31:12  INFO      SOL price: $81.9104
+2026-04-13 01:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-13 01:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-13 01:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-13 01:46:11  INFO      -- Cycle 55 (SOL) ----------------------------------------
+2026-04-13 01:46:12  INFO      SOL price: $81.7431
+2026-04-13 01:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 01:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 01:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 02:01:11  INFO      -- Cycle 56 (SOL) ----------------------------------------
+2026-04-13 02:01:12  INFO      SOL price: $81.9980
+2026-04-13 02:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 02:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 02:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 02:16:11  INFO      -- Cycle 57 (SOL) ----------------------------------------
+2026-04-13 02:16:13  INFO      SOL price: $81.8451
+2026-04-13 02:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 02:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 02:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 02:31:11  INFO      -- Cycle 58 (SOL) ----------------------------------------
+2026-04-13 02:31:12  INFO      SOL price: $82.0237
+2026-04-13 02:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-13 02:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-13 02:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-13 02:46:11  INFO      -- Cycle 59 (SOL) ----------------------------------------
+2026-04-13 02:46:12  INFO      SOL price: $81.9582
+2026-04-13 02:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 02:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 02:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 03:01:11  INFO      -- Cycle 60 (SOL) ----------------------------------------
+2026-04-13 03:01:12  INFO      SOL price: $81.8430
+2026-04-13 03:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 03:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 03:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 03:16:11  INFO      -- Cycle 61 (SOL) ----------------------------------------
+2026-04-13 03:16:12  INFO      SOL price: $81.8115
+2026-04-13 03:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 03:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 03:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 03:31:11  INFO      -- Cycle 62 (SOL) ----------------------------------------
+2026-04-13 03:31:12  INFO      SOL price: $81.8012
+2026-04-13 03:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 03:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 03:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 03:46:11  INFO      -- Cycle 63 (SOL) ----------------------------------------
+2026-04-13 03:46:13  INFO      SOL price: $81.7883
+2026-04-13 03:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 03:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 03:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 04:01:11  INFO      -- Cycle 64 (SOL) ----------------------------------------
+2026-04-13 04:01:12  INFO      SOL price: $81.7409
+2026-04-13 04:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 04:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 04:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 04:16:11  INFO      -- Cycle 65 (SOL) ----------------------------------------
+2026-04-13 04:16:12  INFO      SOL price: $81.8645
+2026-04-13 04:16:17  INFO      No fills detected. 2 orders still open.
+2026-04-13 04:16:17  INFO      State saved -- 2 tracked orders.
+2026-04-13 04:16:17  INFO      Next cycle in 14.9 min
+
+2026-04-13 04:31:11  INFO      -- Cycle 66 (SOL) ----------------------------------------
+2026-04-13 04:31:12  INFO      SOL price: $81.9199
+2026-04-13 04:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 04:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 04:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 04:46:11  INFO      -- Cycle 67 (SOL) ----------------------------------------
+2026-04-13 04:46:12  INFO      SOL price: $81.9889
+2026-04-13 04:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 04:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 04:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 05:01:11  INFO      -- Cycle 68 (SOL) ----------------------------------------
+2026-04-13 05:01:12  INFO      SOL price: $81.8178
+2026-04-13 05:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 05:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 05:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 05:16:11  INFO      -- Cycle 69 (SOL) ----------------------------------------
+2026-04-13 05:16:13  INFO      SOL price: $82.1694
+2026-04-13 05:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 05:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 05:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 05:31:11  INFO      -- Cycle 70 (SOL) ----------------------------------------
+2026-04-13 05:31:13  INFO      SOL price: $81.9155
+2026-04-13 05:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 05:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 05:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 05:46:11  INFO      -- Cycle 71 (SOL) ----------------------------------------
+2026-04-13 05:46:13  INFO      SOL price: $82.2936
+2026-04-13 05:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 05:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 05:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 06:01:11  INFO      -- Cycle 72 (SOL) ----------------------------------------
+2026-04-13 06:01:12  INFO      SOL price: $82.5548
+2026-04-13 06:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 06:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 06:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 06:16:11  INFO      -- Cycle 73 (SOL) ----------------------------------------
+2026-04-13 06:16:12  INFO      SOL price: $82.5510
+2026-04-13 06:16:17  INFO      No fills detected. 2 orders still open.
+2026-04-13 06:16:17  INFO      State saved -- 2 tracked orders.
+2026-04-13 06:16:17  INFO      Next cycle in 14.9 min
+
+2026-04-13 06:31:11  INFO      -- Cycle 74 (SOL) ----------------------------------------
+2026-04-13 06:31:13  INFO      SOL price: $82.5865
+2026-04-13 06:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 06:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 06:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 06:46:11  INFO      -- Cycle 75 (SOL) ----------------------------------------
+2026-04-13 06:46:13  INFO      SOL price: $82.5880
+2026-04-13 06:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 06:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 06:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 07:01:11  INFO      -- Cycle 76 (SOL) ----------------------------------------
+2026-04-13 07:01:13  INFO      SOL price: $83.6440
+2026-04-13 07:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 07:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 07:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 07:16:11  INFO      -- Cycle 77 (SOL) ----------------------------------------
+2026-04-13 07:16:13  INFO      SOL price: $83.2122
+2026-04-13 07:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 07:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 07:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 07:31:11  INFO      -- Cycle 78 (SOL) ----------------------------------------
+2026-04-13 07:31:13  INFO      SOL price: $82.9826
+2026-04-13 07:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 07:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 07:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 07:46:11  INFO      -- Cycle 79 (SOL) ----------------------------------------
+2026-04-13 07:46:13  INFO      SOL price: $83.4505
+2026-04-13 07:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 07:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 07:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 08:01:11  INFO      -- Cycle 80 (SOL) ----------------------------------------
+2026-04-13 08:01:13  INFO      SOL price: $83.8004
+2026-04-13 08:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 08:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 08:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 08:16:11  INFO      -- Cycle 81 (SOL) ----------------------------------------
+2026-04-13 08:16:13  INFO      SOL price: $83.1548
+2026-04-13 08:16:17  INFO      No fills detected. 2 orders still open.
+2026-04-13 08:16:17  INFO      State saved -- 2 tracked orders.
+2026-04-13 08:16:17  INFO      Next cycle in 14.9 min
+
+2026-04-13 08:31:12  INFO      -- Cycle 82 (SOL) ----------------------------------------
+2026-04-13 08:31:13  INFO      SOL price: $82.5269
+2026-04-13 08:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 08:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 08:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 08:46:12  INFO      -- Cycle 83 (SOL) ----------------------------------------
+2026-04-13 08:46:13  INFO      SOL price: $82.5379
+2026-04-13 08:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 08:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 08:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 09:01:12  INFO      -- Cycle 84 (SOL) ----------------------------------------
+2026-04-13 09:01:13  INFO      SOL price: $82.7534
+2026-04-13 09:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 09:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 09:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 09:16:12  INFO      -- Cycle 85 (SOL) ----------------------------------------
+2026-04-13 09:16:13  INFO      SOL price: $82.8608
+2026-04-13 09:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 09:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 09:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 09:31:12  INFO      -- Cycle 86 (SOL) ----------------------------------------
+2026-04-13 09:31:13  INFO      SOL price: $83.4894
+2026-04-13 09:31:17  INFO      No fills detected. 2 orders still open.
+2026-04-13 09:31:17  INFO      State saved -- 2 tracked orders.
+2026-04-13 09:31:17  INFO      Next cycle in 14.9 min
+
+2026-04-13 09:46:12  INFO      -- Cycle 87 (SOL) ----------------------------------------
+2026-04-13 09:46:13  INFO      SOL price: $83.4692
+2026-04-13 09:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 09:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 09:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 10:01:12  INFO      -- Cycle 88 (SOL) ----------------------------------------
+2026-04-13 10:01:13  INFO      SOL price: $83.2524
+2026-04-13 10:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 10:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 10:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 10:16:12  INFO      -- Cycle 89 (SOL) ----------------------------------------
+2026-04-13 10:16:13  INFO      SOL price: $83.3039
+2026-04-13 10:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 10:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 10:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 10:31:12  INFO      -- Cycle 90 (SOL) ----------------------------------------
+2026-04-13 10:31:13  INFO      SOL price: $83.7889
+2026-04-13 10:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 10:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 10:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 10:46:12  INFO      -- Cycle 91 (SOL) ----------------------------------------
+2026-04-13 10:46:13  INFO      SOL price: $83.5297
+2026-04-13 10:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 10:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 10:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 11:01:12  INFO      -- Cycle 92 (SOL) ----------------------------------------
+2026-04-13 11:01:13  INFO      SOL price: $83.0837
+2026-04-13 11:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 11:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 11:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 11:16:12  INFO      -- Cycle 93 (SOL) ----------------------------------------
+2026-04-13 11:16:13  INFO      SOL price: $83.1193
+2026-04-13 11:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 11:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 11:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 11:31:12  INFO      -- Cycle 94 (SOL) ----------------------------------------
+2026-04-13 11:31:13  INFO      SOL price: $82.8529
+2026-04-13 11:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 11:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 11:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 11:46:12  INFO      -- Cycle 95 (SOL) ----------------------------------------
+2026-04-13 11:46:13  INFO      SOL price: $83.2294
+2026-04-13 11:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 11:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 11:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 12:01:12  INFO      -- Cycle 96 (SOL) ----------------------------------------
+2026-04-13 12:01:13  INFO      SOL price: $83.1969
+2026-04-13 12:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 12:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 12:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 12:16:12  INFO      -- Cycle 97 (SOL) ----------------------------------------
+2026-04-13 12:16:13  INFO      SOL price: $83.2559
+2026-04-13 12:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 12:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 12:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 12:31:12  INFO      -- Cycle 98 (SOL) ----------------------------------------
+2026-04-13 12:31:13  INFO      SOL price: $83.6077
+2026-04-13 12:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 12:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 12:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 12:46:12  INFO      -- Cycle 99 (SOL) ----------------------------------------
+2026-04-13 12:46:13  INFO      SOL price: $83.8881
+2026-04-13 12:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 12:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 12:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 13:01:12  INFO      -- Cycle 100 (SOL) ----------------------------------------
+2026-04-13 13:01:13  INFO      SOL price: $84.2242
+2026-04-13 13:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 13:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 13:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 13:16:12  INFO      -- Cycle 101 (SOL) ----------------------------------------
+2026-04-13 13:16:13  INFO      SOL price: $83.9204
+2026-04-13 13:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 13:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 13:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 13:31:12  INFO      -- Cycle 102 (SOL) ----------------------------------------
+2026-04-13 13:31:13  INFO      SOL price: $84.1019
+2026-04-13 13:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 13:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 13:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 13:46:12  INFO      -- Cycle 103 (SOL) ----------------------------------------
+2026-04-13 13:46:13  INFO      SOL price: $84.1615
+2026-04-13 13:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 13:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 13:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 14:01:12  INFO      -- Cycle 104 (SOL) ----------------------------------------
+2026-04-13 14:01:13  INFO      SOL price: $83.9891
+2026-04-13 14:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 14:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 14:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 14:16:12  INFO      -- Cycle 105 (SOL) ----------------------------------------
+2026-04-13 14:16:13  INFO      SOL price: $84.0710
+2026-04-13 14:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 14:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 14:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 14:31:12  INFO      -- Cycle 106 (SOL) ----------------------------------------
+2026-04-13 14:31:13  INFO      SOL price: $83.9433
+2026-04-13 14:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 14:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 14:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 14:46:12  INFO      -- Cycle 107 (SOL) ----------------------------------------
+2026-04-13 14:46:13  INFO      SOL price: $83.9653
+2026-04-13 14:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 14:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 14:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 15:01:12  INFO      -- Cycle 108 (SOL) ----------------------------------------
+2026-04-13 15:01:13  INFO      SOL price: $84.0134
+2026-04-13 15:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 15:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 15:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 15:16:12  INFO      -- Cycle 109 (SOL) ----------------------------------------
+2026-04-13 15:16:13  INFO      SOL price: $85.0807
+2026-04-13 15:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 15:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 15:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 15:31:12  INFO      -- Cycle 110 (SOL) ----------------------------------------
+2026-04-13 15:31:13  INFO      SOL price: $86.0429
+2026-04-13 15:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 15:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 15:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 15:46:12  INFO      -- Cycle 111 (SOL) ----------------------------------------
+2026-04-13 15:46:13  INFO      SOL price: $85.8190
+2026-04-13 15:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 15:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 15:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 16:01:12  INFO      -- Cycle 112 (SOL) ----------------------------------------
+2026-04-13 16:01:13  INFO      SOL price: $85.9813
+2026-04-13 16:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 16:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 16:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 16:16:12  INFO      -- Cycle 113 (SOL) ----------------------------------------
+2026-04-13 16:16:13  INFO      SOL price: $86.3477
+2026-04-13 16:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 16:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 16:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 16:31:12  INFO      -- Cycle 114 (SOL) ----------------------------------------
+2026-04-13 16:31:13  INFO      SOL price: $86.7010
+2026-04-13 16:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 16:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 16:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 16:46:12  INFO      -- Cycle 115 (SOL) ----------------------------------------
+2026-04-13 16:46:13  INFO      SOL price: $86.4727
+2026-04-13 16:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 16:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 16:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 17:01:12  INFO      -- Cycle 116 (SOL) ----------------------------------------
+2026-04-13 17:01:13  INFO      SOL price: $86.6538
+2026-04-13 17:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 17:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 17:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 17:16:12  INFO      -- Cycle 117 (SOL) ----------------------------------------
+2026-04-13 17:16:13  INFO      SOL price: $86.7592
+2026-04-13 17:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 17:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 17:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 17:31:12  INFO      -- Cycle 118 (SOL) ----------------------------------------
+2026-04-13 17:31:13  INFO      SOL price: $86.2171
+2026-04-13 17:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 17:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 17:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 17:46:12  INFO      -- Cycle 119 (SOL) ----------------------------------------
+2026-04-13 17:46:13  INFO      SOL price: $86.1100
+2026-04-13 17:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 17:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 17:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 18:01:12  INFO      -- Cycle 120 (SOL) ----------------------------------------
+2026-04-13 18:01:13  INFO      SOL price: $85.8544
+2026-04-13 18:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 18:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 18:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 18:16:12  INFO      -- Cycle 121 (SOL) ----------------------------------------
+2026-04-13 18:16:13  INFO      SOL price: $85.9912
+2026-04-13 18:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 18:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 18:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 18:31:12  INFO      -- Cycle 122 (SOL) ----------------------------------------
+2026-04-13 18:31:13  INFO      SOL price: $85.9080
+2026-04-13 18:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 18:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 18:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 18:46:12  INFO      -- Cycle 123 (SOL) ----------------------------------------
+2026-04-13 18:46:13  INFO      SOL price: $86.0801
+2026-04-13 18:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 18:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 18:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 19:01:12  INFO      -- Cycle 124 (SOL) ----------------------------------------
+2026-04-13 19:01:13  INFO      SOL price: $85.9519
+2026-04-13 19:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 19:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 19:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 19:16:12  INFO      -- Cycle 125 (SOL) ----------------------------------------
+2026-04-13 19:16:14  INFO      SOL price: $86.1942
+2026-04-13 19:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 19:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 19:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 19:31:12  INFO      -- Cycle 126 (SOL) ----------------------------------------
+2026-04-13 19:31:13  INFO      SOL price: $86.0967
+2026-04-13 19:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 19:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 19:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 19:46:12  INFO      -- Cycle 127 (SOL) ----------------------------------------
+2026-04-13 19:46:13  INFO      SOL price: $86.1916
+2026-04-13 19:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 19:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 19:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 20:01:12  INFO      -- Cycle 128 (SOL) ----------------------------------------
+2026-04-13 20:01:14  INFO      SOL price: $86.2197
+2026-04-13 20:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 20:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 20:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 20:16:12  INFO      -- Cycle 129 (SOL) ----------------------------------------
+2026-04-13 20:16:13  INFO      SOL price: $86.2074
+2026-04-13 20:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 20:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 20:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 20:31:12  INFO      -- Cycle 130 (SOL) ----------------------------------------
+2026-04-13 20:31:14  INFO      SOL price: $86.1117
+2026-04-13 20:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 20:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 20:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 20:46:12  INFO      -- Cycle 131 (SOL) ----------------------------------------
+2026-04-13 20:46:14  INFO      SOL price: $86.1210
+2026-04-13 20:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 20:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 20:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 21:01:12  INFO      -- Cycle 132 (SOL) ----------------------------------------
+2026-04-13 21:01:14  INFO      SOL price: $86.0478
+2026-04-13 21:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 21:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 21:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 21:16:12  INFO      -- Cycle 133 (SOL) ----------------------------------------
+2026-04-13 21:16:14  INFO      SOL price: $85.9835
+2026-04-13 21:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 21:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 21:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 21:31:12  INFO      -- Cycle 134 (SOL) ----------------------------------------
+2026-04-13 21:31:13  INFO      SOL price: $85.7682
+2026-04-13 21:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 21:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 21:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 21:46:12  INFO      -- Cycle 135 (SOL) ----------------------------------------
+2026-04-13 21:46:14  INFO      SOL price: $85.6291
+2026-04-13 21:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 21:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 21:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 22:01:12  INFO      -- Cycle 136 (SOL) ----------------------------------------
+2026-04-13 22:01:14  INFO      SOL price: $85.8933
+2026-04-13 22:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-13 22:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-13 22:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-13 22:16:12  INFO      -- Cycle 137 (SOL) ----------------------------------------
+2026-04-13 22:16:13  INFO      SOL price: $85.7427
+2026-04-13 22:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 22:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 22:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 22:31:12  INFO      -- Cycle 138 (SOL) ----------------------------------------
+2026-04-13 22:31:13  INFO      SOL price: $85.7668
+2026-04-13 22:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 22:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 22:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 22:46:12  INFO      -- Cycle 139 (SOL) ----------------------------------------
+2026-04-13 22:46:13  INFO      SOL price: $85.7512
+2026-04-13 22:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 22:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 22:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 23:01:12  INFO      -- Cycle 140 (SOL) ----------------------------------------
+2026-04-13 23:01:14  INFO      SOL price: $85.6356
+2026-04-13 23:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 23:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 23:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 23:16:12  INFO      -- Cycle 141 (SOL) ----------------------------------------
+2026-04-13 23:16:14  INFO      SOL price: $85.6944
+2026-04-13 23:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 23:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 23:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 23:31:12  INFO      -- Cycle 142 (SOL) ----------------------------------------
+2026-04-13 23:31:14  INFO      SOL price: $85.7277
+2026-04-13 23:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 23:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 23:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-13 23:46:13  INFO      -- Cycle 143 (SOL) ----------------------------------------
+2026-04-13 23:46:14  INFO      SOL price: $85.7233
+2026-04-13 23:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-13 23:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-13 23:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 00:01:13  INFO      -- Cycle 144 (SOL) ----------------------------------------
+2026-04-14 00:01:14  INFO      SOL price: $85.9632
+2026-04-14 00:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 00:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 00:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 00:16:13  INFO      -- Cycle 145 (SOL) ----------------------------------------
+2026-04-14 00:16:14  INFO      SOL price: $85.9485
+2026-04-14 00:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 00:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 00:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 00:31:13  INFO      -- Cycle 146 (SOL) ----------------------------------------
+2026-04-14 00:31:14  INFO      SOL price: $86.0661
+2026-04-14 00:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 00:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 00:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 00:46:13  INFO      -- Cycle 147 (SOL) ----------------------------------------
+2026-04-14 00:46:14  INFO      SOL price: $85.8606
+2026-04-14 00:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 00:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 00:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 01:01:13  INFO      -- Cycle 148 (SOL) ----------------------------------------
+2026-04-14 01:01:14  INFO      SOL price: $85.8681
+2026-04-14 01:01:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 01:01:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 01:01:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 01:16:13  INFO      -- Cycle 149 (SOL) ----------------------------------------
+2026-04-14 01:16:14  INFO      SOL price: $85.8762
+2026-04-14 01:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 01:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 01:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 01:31:13  INFO      -- Cycle 150 (SOL) ----------------------------------------
+2026-04-14 01:31:14  INFO      SOL price: $86.1168
+2026-04-14 01:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 01:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 01:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 01:46:13  INFO      -- Cycle 151 (SOL) ----------------------------------------
+2026-04-14 01:46:14  INFO      SOL price: $86.0817
+2026-04-14 01:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 01:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 01:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 02:01:13  INFO      -- Cycle 152 (SOL) ----------------------------------------
+2026-04-14 02:01:14  INFO      SOL price: $86.1669
+2026-04-14 02:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 02:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 02:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 02:16:13  INFO      -- Cycle 153 (SOL) ----------------------------------------
+2026-04-14 02:16:14  INFO      SOL price: $86.2870
+2026-04-14 02:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 02:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 02:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 02:31:13  INFO      -- Cycle 154 (SOL) ----------------------------------------
+2026-04-14 02:31:14  INFO      SOL price: $86.1198
+2026-04-14 02:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 02:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 02:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 02:46:13  INFO      -- Cycle 155 (SOL) ----------------------------------------
+2026-04-14 02:46:14  INFO      SOL price: $86.0857
+2026-04-14 02:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 02:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 02:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 03:01:13  INFO      -- Cycle 156 (SOL) ----------------------------------------
+2026-04-14 03:01:14  INFO      SOL price: $86.0823
+2026-04-14 03:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 03:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 03:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 03:16:13  INFO      -- Cycle 157 (SOL) ----------------------------------------
+2026-04-14 03:16:14  INFO      SOL price: $86.3222
+2026-04-14 03:16:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 03:16:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 03:16:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 03:31:13  INFO      -- Cycle 158 (SOL) ----------------------------------------
+2026-04-14 03:31:14  INFO      SOL price: $86.3467
+2026-04-14 03:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 03:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 03:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 03:46:13  INFO      -- Cycle 159 (SOL) ----------------------------------------
+2026-04-14 03:46:14  INFO      SOL price: $86.1366
+2026-04-14 03:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 03:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 03:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 04:01:13  INFO      -- Cycle 160 (SOL) ----------------------------------------
+2026-04-14 04:01:14  INFO      SOL price: $85.9678
+2026-04-14 04:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 04:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 04:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 04:16:13  INFO      -- Cycle 161 (SOL) ----------------------------------------
+2026-04-14 04:16:14  INFO      SOL price: $86.0803
+2026-04-14 04:16:20  INFO      No fills detected. 2 orders still open.
+2026-04-14 04:16:20  INFO      State saved -- 2 tracked orders.
+2026-04-14 04:16:20  INFO      Next cycle in 14.9 min
+
+2026-04-14 04:31:13  INFO      -- Cycle 162 (SOL) ----------------------------------------
+2026-04-14 04:31:14  INFO      SOL price: $85.6693
+2026-04-14 04:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 04:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 04:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 04:46:13  INFO      -- Cycle 163 (SOL) ----------------------------------------
+2026-04-14 04:46:14  INFO      SOL price: $85.8468
+2026-04-14 04:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 04:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 04:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 05:01:13  INFO      -- Cycle 164 (SOL) ----------------------------------------
+2026-04-14 05:01:14  INFO      SOL price: $85.8542
+2026-04-14 05:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 05:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 05:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 05:16:13  INFO      -- Cycle 165 (SOL) ----------------------------------------
+2026-04-14 05:16:14  INFO      SOL price: $85.8903
+2026-04-14 05:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 05:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 05:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 05:31:13  INFO      -- Cycle 166 (SOL) ----------------------------------------
+2026-04-14 05:31:14  INFO      SOL price: $85.6881
+2026-04-14 05:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 05:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 05:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 05:46:13  INFO      -- Cycle 167 (SOL) ----------------------------------------
+2026-04-14 05:46:14  INFO      SOL price: $85.7830
+2026-04-14 05:46:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 05:46:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 05:46:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 06:01:13  INFO      -- Cycle 168 (SOL) ----------------------------------------
+2026-04-14 06:01:14  INFO      SOL price: $86.0357
+2026-04-14 06:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 06:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 06:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 06:16:13  INFO      -- Cycle 169 (SOL) ----------------------------------------
+2026-04-14 06:16:14  INFO      SOL price: $86.0707
+2026-04-14 06:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 06:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 06:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 06:31:13  INFO      -- Cycle 170 (SOL) ----------------------------------------
+2026-04-14 06:31:14  INFO      SOL price: $86.3613
+2026-04-14 06:31:20  INFO      No fills detected. 2 orders still open.
+2026-04-14 06:31:20  INFO      State saved -- 2 tracked orders.
+2026-04-14 06:31:20  INFO      Next cycle in 14.9 min
+
+2026-04-14 06:46:13  INFO      -- Cycle 171 (SOL) ----------------------------------------
+2026-04-14 06:46:14  INFO      SOL price: $87.1204
+2026-04-14 06:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 06:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 06:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 07:01:13  INFO      -- Cycle 172 (SOL) ----------------------------------------
+2026-04-14 07:01:14  INFO      SOL price: $87.2726
+2026-04-14 07:01:20  INFO      No fills detected. 2 orders still open.
+2026-04-14 07:01:20  INFO      State saved -- 2 tracked orders.
+2026-04-14 07:01:20  INFO      Next cycle in 14.9 min
+
+2026-04-14 07:16:13  INFO      -- Cycle 173 (SOL) ----------------------------------------
+2026-04-14 07:16:14  INFO      SOL price: $86.9616
+2026-04-14 07:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 07:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 07:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 07:31:13  INFO      -- Cycle 174 (SOL) ----------------------------------------
+2026-04-14 07:31:14  INFO      SOL price: $87.4482
+2026-04-14 07:31:18  INFO      No fills detected. 2 orders still open.
+2026-04-14 07:31:18  INFO      State saved -- 2 tracked orders.
+2026-04-14 07:31:18  INFO      Next cycle in 14.9 min
+
+2026-04-14 07:46:13  INFO      -- Cycle 175 (SOL) ----------------------------------------
+2026-04-14 07:46:14  INFO      SOL price: $86.3278
+2026-04-14 07:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 07:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 07:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 08:01:13  INFO      -- Cycle 176 (SOL) ----------------------------------------
+2026-04-14 08:01:14  INFO      SOL price: $85.9410
+2026-04-14 08:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 08:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 08:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 08:16:13  INFO      -- Cycle 177 (SOL) ----------------------------------------
+2026-04-14 08:16:14  INFO      SOL price: $85.6944
+2026-04-14 08:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 08:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 08:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 08:31:13  INFO      -- Cycle 178 (SOL) ----------------------------------------
+2026-04-14 08:31:14  INFO      SOL price: $85.6657
+2026-04-14 08:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 08:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 08:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 08:46:13  INFO      -- Cycle 179 (SOL) ----------------------------------------
+2026-04-14 08:46:14  INFO      SOL price: $86.2537
+2026-04-14 08:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 08:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 08:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 09:01:13  INFO      -- Cycle 180 (SOL) ----------------------------------------
+2026-04-14 09:01:14  INFO      SOL price: $86.0315
+2026-04-14 09:01:20  INFO      No fills detected. 2 orders still open.
+2026-04-14 09:01:20  INFO      State saved -- 2 tracked orders.
+2026-04-14 09:01:20  INFO      Next cycle in 14.9 min
+
+2026-04-14 09:16:13  INFO      -- Cycle 181 (SOL) ----------------------------------------
+2026-04-14 09:16:14  INFO      SOL price: $85.8071
+2026-04-14 09:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 09:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 09:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 09:31:13  INFO      -- Cycle 182 (SOL) ----------------------------------------
+2026-04-14 09:31:14  INFO      SOL price: $85.7305
+2026-04-14 09:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 09:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 09:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 09:46:13  INFO      -- Cycle 183 (SOL) ----------------------------------------
+2026-04-14 09:46:14  INFO      SOL price: $85.5587
+2026-04-14 09:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 09:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 09:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 10:01:13  INFO      -- Cycle 184 (SOL) ----------------------------------------
+2026-04-14 10:01:14  INFO      SOL price: $85.0802
+2026-04-14 10:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 10:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 10:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 10:16:13  INFO      -- Cycle 185 (SOL) ----------------------------------------
+2026-04-14 10:16:14  INFO      SOL price: $85.3647
+2026-04-14 10:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 10:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 10:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 10:31:13  INFO      -- Cycle 186 (SOL) ----------------------------------------
+2026-04-14 10:31:14  INFO      SOL price: $85.1079
+2026-04-14 10:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 10:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 10:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 10:46:13  INFO      -- Cycle 187 (SOL) ----------------------------------------
+2026-04-14 10:46:14  INFO      SOL price: $85.1766
+2026-04-14 10:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 10:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 10:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 11:01:13  INFO      -- Cycle 188 (SOL) ----------------------------------------
+2026-04-14 11:01:14  INFO      SOL price: $85.3284
+2026-04-14 11:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 11:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 11:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 11:16:13  INFO      -- Cycle 189 (SOL) ----------------------------------------
+2026-04-14 11:16:14  INFO      SOL price: $85.1946
+2026-04-14 11:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 11:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 11:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 11:31:13  INFO      -- Cycle 190 (SOL) ----------------------------------------
+2026-04-14 11:31:14  INFO      SOL price: $84.9885
+2026-04-14 11:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 11:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 11:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 11:46:13  INFO      -- Cycle 191 (SOL) ----------------------------------------
+2026-04-14 11:46:14  INFO      SOL price: $84.4878
+2026-04-14 11:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 11:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 11:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 12:01:13  INFO      -- Cycle 192 (SOL) ----------------------------------------
+2026-04-14 12:01:14  INFO      SOL price: $84.1451
+2026-04-14 12:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 12:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 12:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 12:16:13  INFO      -- Cycle 193 (SOL) ----------------------------------------
+2026-04-14 12:16:14  INFO      SOL price: $84.2164
+2026-04-14 12:16:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 12:16:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 12:16:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 12:31:13  INFO      -- Cycle 194 (SOL) ----------------------------------------
+2026-04-14 12:31:15  INFO      SOL price: $84.2113
+2026-04-14 12:31:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 12:31:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 12:31:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 12:46:13  INFO      -- Cycle 195 (SOL) ----------------------------------------
+2026-04-14 12:46:14  INFO      SOL price: $84.0741
+2026-04-14 12:46:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 12:46:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 12:46:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 13:01:13  INFO      -- Cycle 196 (SOL) ----------------------------------------
+2026-04-14 13:01:14  INFO      SOL price: $83.9545
+2026-04-14 13:01:19  INFO      No fills detected. 2 orders still open.
+2026-04-14 13:01:19  INFO      State saved -- 2 tracked orders.
+2026-04-14 13:01:19  INFO      Next cycle in 14.9 min
+
+2026-04-14 13:16:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 13:16:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 13:16:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 13:31:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 13:31:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 13:31:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 13:46:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 13:46:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 13:46:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 14:01:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 14:01:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 14:01:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 14:16:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 14:16:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 14:16:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 14:31:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 14:31:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 14:31:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 14:46:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 14:46:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 14:46:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 15:01:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 15:01:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 15:01:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 15:16:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 15:16:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 15:16:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 15:31:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 15:31:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 15:31:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 15:46:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 15:46:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 15:46:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 16:01:13  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 16:01:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 16:01:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 16:16:14  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 16:16:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 16:16:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 16:31:14  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 16:31:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 16:31:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 16:46:14  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 16:46:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 16:46:14  INFO      Next cycle in 15.0 min
+
+2026-04-14 17:01:14  INFO      -- Cycle 197 (SOL) ----------------------------------------
+2026-04-14 17:01:14  ERROR     Failed to fetch price: 'NoneType' object is not subscriptable
+2026-04-14 17:01:14  INFO      Next cycle in 15.0 min
+

@@ -2,8 +2,6 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import math
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -168,13 +166,6 @@ def backtest(prices, sweep=0.08, steps=8, order_size_pct=0.05, reset_interval=6,
                         existing.add(key)
 
     final_value = cash + holdings * prices[-1]
-
-    # Guard: degenerate configs (near-zero counter prices, huge qty) can cause
-    # floating-point explosion. A 5,000x return in any real period is impossible;
-    # mark as halted so these results are excluded from rankings.
-    if not math.isfinite(final_value) or final_value > INITIAL_CASH * 5_000:
-        halted = True
-        final_value = INITIAL_CASH
 
     return {
         "final_value": final_value,
